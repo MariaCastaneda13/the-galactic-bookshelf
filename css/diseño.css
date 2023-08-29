@@ -1,0 +1,124 @@
+*{margin:0;
+}
+
+.barraNavegadora{
+    background-color: white;
+
+}
+.logo{
+    width: 380px;
+    height: 100px;
+}
+.nav-link{
+    margin-left: 40px;
+}
+.content-text{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.container-principal{
+    background-color: #222941;
+    width: 100%;
+    height: 300px;
+}
+.book-image{
+    width: 240px;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: 570px;
+}
+
+.texto-titulo{
+    position: absolute;
+    top: 18%;
+    left: 11%;
+    font-family:'Gill Sans';
+}
+.texto-subtitulo{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+    font-size: smaller;
+    font-family:Times;
+
+}
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+}
+.media-quote{
+    font-family: garamond;
+}
+.principal{
+    font-size: 20px;
+}
+.secundario{
+    font-size: 14px;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: lightsalmon;
+    grid-area: header;
+}
+
+nav {
+    background-color: darkolivegreen;
+    grid-area: nav;
+}
+
+main {
+    background-color: darkmagenta;
+    grid-area: main;
+    height: 200px;
+}
+
+.primeraSeccion {
+    background-color: lawngreen;
+    grid-area: seccion a;
+    height: 200px;
+}
+
+.segundaSeccion {
+    background-color: lightskyblue;
+    height: 100px;
+    grid-area: seccion b;
+}
+
+footer {
+    background-color: yellowgreen;
+    height: 140px;
+    grid-area: footer;
+}
+
+/*VERSIÓN TABLETA*/
+@media (min-width:760px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "nav seccionA"
+        "nav seccionA"
+        "nav SeccionB"
+        "main main"
+        "footer footer";
+            }
+}
+/*VERSIÓN ESCRITORIO*/
+@media(min-width:1024px){
+.gridPadre{
+    grid-template-areas:
+    "header header header"
+    "nav nav main"
+    "nav nav main"
+    "footer seccionA seccion A"
+    "footer seccionB seccionB";
+}
+}

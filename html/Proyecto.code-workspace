@@ -1,0 +1,15 @@
+{
+    "folders": [
+		{
+			"name": "Proyecto",
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Pruebas de clase"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Pruebas de clase",
+        "liveServer.settings.port": 5501
+    }
+}
