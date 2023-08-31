@@ -1,3 +1,4 @@
+/******************************GENERAL************************/
 * {
     margin: 0;
 }
@@ -16,58 +17,30 @@
     margin-left: 40px;
 }
 
-.content-text {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.container-principal {
-    width: 100%;
-    height: 300px;
-}
-
-.texto-titulo {
-    position: absolute;
-    top: 18%;
-    left: 11%;
-    font-family: 'Gill Sans';
-}
-
-.texto-subtitulo {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    bottom: 25%;
-    transform: translate(-50%, -50%);
-    font-size: smaller;
-    font-family: Times;
-
-}
-
-.carrusel {
-    display: flex;
-    flex-direction: column;
-    align-items: normal;
-}
-
 .media-quote {
     font-family: garamond;
 }
 
 .principal {
     font-size: 20px;
-}
+    margin-bottom: 6px;
+    }
 
 .secundario {
     font-size: 15px;
+    margin-bottom: 15Spx;
 }
 
-body {
+.lineaDivisora {
+    border-top: 1px solid black;
+    margin-top: 1px
+}
+
+.footer {
     text-align: center;
 }
 
-
+/*****************************COMPUTADORA***************************/
 /*Tamaño computadora*/
 @media (min-width: 768px) {
     .carousel-computadora {
@@ -78,11 +51,11 @@ body {
         display: none;
     }
 }
-
-/* Tamaño VERTICAL para celulares */
+/****************************VERTICAL******************************/
+/* Tamaño celulares */
 @media (max-width: 600px) {
     .principal {
-        font-size: 25px;
+        font-size: 1.3em;
     }
 
     .secundario {
@@ -97,11 +70,14 @@ body {
         display: block;
     }
 }
-
-/* Tamaño VERTICAL para tabletas */
+/* Tamaño tabletas */
 @media (min-width: 601px) and (max-width: 1024px) {
     .principal {
-        font-size: 30px;
+        font-size: 2em;
+    }
+
+    .secundario {
+        display: none;
     }
 
     .carousel-computadora {
@@ -112,9 +88,17 @@ body {
         display: block;
     }
 }
+/**************************HORIZONTAL*******************************/
+/*Tamaño celulares*/
+@media (max-width: 926px) and (orientation: landscape) {
+    .principal {
+        font-size: 1.7em;
+    }
 
-/*Tamaño HORIZONTAL para celulares*/
-@media screen and (orientation:landscape){
+    .secundario {
+        display: block;
+        font-size: 1.4em;
+    }
     .carousel-computadora {
         display: block;
     }
@@ -123,9 +107,17 @@ body {
         display: none;
     }
 }
-
-/*Tamaño HORIZONTAL para tabletas*/
-@media screen and (orientation:landscape){
+/*Tamaño tabletas*/
+@media (min-width: 927px) and (max-width: 1300px) and (orientation: landscape){
+    .principal {
+        font-size: 2.3em;
+    }
+    .secundario {
+        display: block;
+        font-size: 1.7em;
+        margin-top: 10px;
+    }
+    
     .carousel-computadora {
         display: block;
     }
