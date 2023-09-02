@@ -48,7 +48,7 @@ li {
     font-family: garamond;
 }
 .lecturasImp{
-    background-color: #0F3F31;
+    background-color: #22412A;
     line-height: 40px;
 
 }
@@ -64,6 +64,18 @@ li {
     display: inline;
     line-height: 40px;
 
+}
+.contsubs{
+    display: flex;
+    align-items: center;
+}
+.subrecomendacion{
+    font-family: garamond;
+    font-size: 23px;
+    margin-left: 15px;
+}
+.correo{
+    font-family: garamond;
 }
 .footer {
     text-align: center;
@@ -165,6 +177,20 @@ li {
         display: inline;
         line-height: 40px;
 }
+.contsubs{
+    display:grid;
+    align-items: center;
+}
+.subrecomendacion{
+    font-family: garamond;
+    font-size: 18px;
+
+}
+.correo{
+    font-family: garamond;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 }
 
 /* Tamaño tabletas */
@@ -227,7 +253,19 @@ li {
         display: inline;
         line-height: 40px;
 }
-
+.contsubs{
+    display:grid;
+    align-items: center;
+}
+.subrecomendacion{
+    font-family: garamond;
+    font-size: 27px;
+}
+.correo{
+    font-family: garamond;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
 }
 
 /**************************HORIZONTAL*******************************/
