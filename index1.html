@@ -187,49 +187,82 @@
     <!------------------------ INICIO LECTURAS IMP------------------------->
     <section class="lecturasImp text-end mb-0">
       <a href="">
-      <h2 class="subtitulo fw-bold text-light me-4">Lecturas que han marcado a la gente</h2></a>
+        <h2 class="subtitulo fw-bold text-light me-4">Lecturas que han marcado a la gente</h2>
+      </a>
       <div class="row mx-auto justify-content-center mt-4">
 
-      <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
-        <a href="#">
-          <img class="libro" src="./imagenes/Este dolor no es mío.jpg" class="figure-img img-fluid rounded" alt="...">
-        </a>
-      </div>
+        <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
+          <a href="#">
+            <img class="libro" src="./imagenes/Este dolor no es mío.jpg" class="figure-img img-fluid rounded" alt="...">
+          </a>
+        </div>
 
-      <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
-        <a href="#">
-          <img class="libro" src="./imagenes/La chica del tren.jpg" class="figure-img img-fluid rounded" alt="...">
-        </a>
-      </div>
+        <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
+          <a href="#">
+            <img class="libro" src="./imagenes/La chica del tren.jpg" class="figure-img img-fluid rounded" alt="...">
+          </a>
+        </div>
 
-      <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
-        <a href="#">
-          <img class="libro" src="./imagenes/La paciente silenciosa.jpg" class="figure-img img-fluid rounded" alt="...">
-        </a>
-      </div>
+        <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
+          <a href="#">
+            <img class="libro" src="./imagenes/La paciente silenciosa.jpg" class="figure-img img-fluid rounded"
+              alt="...">
+          </a>
+        </div>
 
-      <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
-        <a href="#">
-          <img class="libro" src="./imagenes/Encuentra tu persona vitamina.jpg" class="figure-img img-fluid rounded" alt="...">
-        </a>
-      </div>
+        <div class="col-xl-2 col-md-3 col-sm-3 text-center minicon">
+          <a href="#">
+            <img class="libro" src="./imagenes/Encuentra tu persona vitamina.jpg" class="figure-img img-fluid rounded"
+              alt="...">
+          </a>
+        </div>
       </div>
     </section>
-    <!------------------------ FIN LECTURAS IMP------------------------->
-<!---------------------------- INICIO SUSCRIPCION ----------------------->
+    <!---------------------------- FIN LECTURAS IMP------------------------------>
+    <!------------------------------ INICIO SUSCRIPCION ------------------------->
     <section class="suscripcion">
-    <div class="container-fluid contsubs">
-      <p class="subrecomendacion fw-bold mt-3">No te pierdas nuestras recomendaciones de libros y mucho más.</p>
-      
-      <form action="procesar_formulario.php" method="post">
+      <div class="container-fluid contsubs">
+        <p class="subrecomendacion fw-bold mt-3">No te pierdas nuestras recomendaciones de libros y mucho más.</p>
+
+        <form action="procesar_formulario.php" method="post">
           <label class="correo fs-5 ms-5" for="correo">Correo:</label>
           <input class="correo" type="email" id="correo" name="correo" required placeholder="Tu correo electrónico">
           <input class="correo" type="submit" value="Suscribirse">
-      </form>
+        </form>
     </section>
     <hr class="lineaDivisora">
 
     <!---------------------------- FIN SUSCRIPCION ----------------------->
+
+    <!-------------------------------- INICIO PLAYLIST ------------------------>
+<section class="playlist">
+  <h2 class="subtitulo fw-bold ms-5"> Para un buen libro, buena música</h2>
+  <iframe class="musica"
+      src="https://open.spotify.com/embed/playlist/6XE63IKGlRfipQTZ8syzzs?utm_source=generator&theme=0" width="100%"
+      height="400px" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+      
+      
+      <nav class="formularioDudas">
+        <h2 class="subtitulo subtituloFormulario fw-bold text-center mt-1">¡Escríbenos!</h2>
+        <label class="subtitulo subtituloFormulario1 ms-4" for="Nombre ">Nombre:</label>
+        <input class="espacioFormulario" type="text " id="Nombre ">
+        <br><br>
+        <label class="subtitulo subtituloFormulario1 ms-4"  for=Correo>Correo:</label>
+        <input class="espacioFormulario" type="email " id="Correo ">
+        <br><br>
+        <label class="subtitulo subtituloFormulario1 ms-4" for=text>Escribe tu mensaje aquí:</label>
+        <input class=" espacioFormulario1" type="text "
+            name="text " id="mensaje ">
+        <br><br>
+        <input class="boton" type="submit" value="Enviar">
+    </nav>
+    <hr style="margin-top: -300px;margin-left: 40px; margin-right: 40px;">
+      
+</section>
+
+    <!-------------------------------- INICIO PLAYLIST ------------------------>
 
 
     <!------------------------------- INICIO FOOTER -------------------->
@@ -238,8 +271,6 @@
       <p class="footer font-monospace">THE GALACTIC BOOKSHELF</p>
       <p class="footer-date">2023</p>
     </footer>
-    <!-------------------------------- FIN FOOTER ------------------------>
-
 
     <!--BOOTSTRAP  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

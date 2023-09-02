@@ -77,6 +77,36 @@ li {
 .correo{
     font-family: garamond;
 }
+.musica{
+    margin-left: 50px; 
+    margin-top: 50px; 
+    border-radius:12px; 
+    width: 400px;
+}
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+.espacioFormulario{
+    width: 450px; 
+    border: black 1px solid;
+    margin-left: 20px
+}
+.espacioFormulario1{
+    width: 450px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 230px;
+}
 .footer {
     text-align: center;
     font-family: Garamond;
@@ -191,6 +221,36 @@ li {
     font-size: 12px;
     margin-bottom: 10px;
 }
+.musica{
+    margin-left: 15px; 
+    margin-top: 10px; 
+    border-radius:12px; 
+    width: 340px;
+}
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 330px;
+    height: 400px;
+    position:static; /* PONER ATENCION CON EL PIE DE PAGINA*/
+    margin-top: 40px;
+    margin-left: 20px;  
+}
+.espacioFormulario{
+    width: 300px; 
+    border: black 1px solid;
+    margin-left: 20px;
+}
+.espacioFormulario1{
+    width: 300px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 140px;
+}
 }
 
 /* Tamaño tabletas */
@@ -266,6 +326,45 @@ li {
     font-size: 17px;
     margin-bottom: 10px;
 }
+.musica{
+    margin-left: 30px; 
+    margin-top: 10px; 
+    border-radius:12px; 
+    width: 340px;
+}
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 340px;
+    height: 400px;
+    position:relative;
+    top: -450px;
+    left: 400px;
+    margin-top: 40px;
+    margin-left: 40px;  
+}
+.espacioFormulario{
+    width: 300px; 
+    border: black 1px solid;
+    margin-left: 20px;
+}
+.espacioFormulario1{
+    width: 300px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 140px;
+    top: -14px;
+}
+.subtituloFormulario{
+    font-size: 26px;
+}
+.subtituloFormulario1{
+    font-size: 23px;
+}
 }
 
 /**************************HORIZONTAL*******************************/
@@ -317,6 +416,40 @@ li {
         display: inline;
         line-height: 40px;
 }
+.musica{
+    margin-left: 15px; 
+    margin-top: 10px; 
+    border-radius:12px; 
+    width: 340px;
+}
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 300px;
+    height: 400px;
+    position:relative; 
+    top: -445px;
+    left: 380px;
+   
+}
+.espacioFormulario{
+    width: 260px; 
+    border: black 1px solid;
+    margin-left: 20px;
+}
+.espacioFormulario1{
+    width: 260px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 125px;
+}
+.subtituloFormulario1{
+    font-size: 18px;
+}
 }
 @media (min-width:500px) and (max-width:600px) and (orientation:landscape){
     .minicon {
@@ -349,6 +482,38 @@ li {
         display: inline;
         line-height: 40px;
 }
+.musica{
+    margin-left: 70px; 
+    margin-top: 10px; 
+    border-radius:12px; 
+    width: 340px;
+}
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 340px;
+    height: 400px;
+    position:static; 
+    margin-left: 80px;
+   
+}
+.espacioFormulario{
+    width: 300px; 
+    border: black 1px solid;
+    margin-left: 20px;
+}
+.espacioFormulario1{
+    width: 300px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 130px;
+}
+.subtituloFormulario1{
+    font-size: 18px;
 }
 
 /*Tamaño tabletas*/
