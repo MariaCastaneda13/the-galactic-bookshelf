@@ -47,7 +47,24 @@ li {
 .subtitulo {
     font-family: garamond;
 }
+.lecturasImp{
+    background-color: #0F3F31;
+    line-height: 40px;
 
+}
+.libro{
+    border-top-left-radius: 100%; 
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; 
+    width: 170px; 
+    height: 180px; 
+    margin-top: 1px;
+    margin-bottom: 20px;
+    display: inline;
+    line-height: 40px;
+
+}
 .footer {
     text-align: center;
     font-family: Garamond;
@@ -133,6 +150,21 @@ li {
         color: black;
         font-size: 16px;
     }
+    .subtitulo{
+        font-size: 21px;
+    }
+    .libro{
+        border-top-left-radius: 100%; 
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%; 
+        width: 65px; 
+        height: 75px; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+}
 }
 
 /* Tamaño tabletas */
@@ -180,6 +212,21 @@ li {
         font-size: 23px;
 
     }
+    .subtitulo{
+        font-size: 40px;
+    }
+    .libro{
+        border-top-left-radius: 100%; 
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%; 
+        width: 170px; 
+        height: 180px; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+}
 
 }
 
@@ -217,6 +264,21 @@ li {
         color: black;
         font-size: 20px;
     }
+    .subtitulo{
+        font-size: 36px;
+    }
+    .libro{
+        border-top-left-radius: 100%; 
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%; 
+        width: 140px; 
+        height: 150px; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+}
 }
 @media (min-width:500px) and (max-width:600px) and (orientation:landscape){
     .minicon {
@@ -234,20 +296,33 @@ li {
         color: black;
         font-size: 20px;
     }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .libro{
+        border-top-left-radius: 100%; 
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%; 
+        width: 110px; 
+        height: 120px; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+}
 }
 
 /*Tamaño tabletas*/
-@media (min-width: 927px) and (max-width: 1300px) and (orientation: landscape) {
+@media (min-width: 927px) and (max-width: 1300px) and (orientation: landscape){
     .principal {
         font-size: 2.3em;
     }
-
     .secundario {
         display: block;
         font-size: 1.7em;
         margin-top: 0.62em;
     }
-
     .carousel-computadora {
         display: block;
     }
@@ -269,4 +344,20 @@ li {
         color: black;
         font-size: 28px;
     }
+    .subtitulo{
+        font-size: 40px;
+    }
+    .libro{
+        border-top-left-radius: 100%; 
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%; 
+        width: 190px; 
+        height: 200px; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+}
+
 }
