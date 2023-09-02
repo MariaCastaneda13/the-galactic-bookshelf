@@ -1,6 +1,14 @@
 /******************************GENERAL************************/
+A {
+    text-decoration: none;
+}
+
 * {
     margin: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 .barraNavegadora {
@@ -9,12 +17,12 @@
 }
 
 .logo {
-    width: 380px;
-    height: 100px;
+    width: 18.75em;
+    height: 5em;
 }
 
 .nav-link {
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 
 .media-quote {
@@ -22,22 +30,35 @@
 }
 
 .principal {
-    font-size: 20px;
-    margin-bottom: 6px;
-    }
+    font-size: 1.4em;
+    margin-bottom: 0.37em;
+}
 
 .secundario {
-    font-size: 15px;
-    margin-bottom: 15Spx;
+    font-size: 1.06em;
+    margin-bottom: 0.93em;
 }
 
 .lineaDivisora {
-    border-top: 1px solid black;
-    margin-top: 1px
+    border-top: 0.06em solid black;
+    margin-top: 0.06em;
+}
+
+.subtitulo {
+    font-family: garamond;
 }
 
 .footer {
     text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+}
+
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
 }
 
 /*****************************COMPUTADORA***************************/
@@ -50,7 +71,34 @@
     .carousel-movil {
         display: none;
     }
+
+    .carousel-item {
+        padding: 20 px;
+        font-size: 5px;
+    }
+
+    .carousel-pequeno {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .minicon {
+        width: 21em;
+    }
+    .icono {
+        width: 5em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 17px;
+    }
 }
+
 /****************************VERTICAL******************************/
 /* Tamaño celulares */
 @media (max-width: 600px) {
@@ -69,7 +117,24 @@
     .carousel-movil {
         display: block;
     }
+
+    .minicon {
+        width: 5em;
+    }
+    .icono {
+        width: 3em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 16px;
+    }
 }
+
 /* Tamaño tabletas */
 @media (min-width: 601px) and (max-width: 1024px) {
     .principal {
@@ -87,7 +152,37 @@
     .carousel-movil {
         display: block;
     }
+
+    .subtitulo {
+        font-size: 2em;
+    }
+
+    /* .groupText {
+        display: inline;
+        font-family: garamond;
+        font-size: 13px;
+        color: black; */
+
+    .minicon {
+        width: 12em;
+    }
+
+    .icono {
+        width: 5em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 23px;
+
+    }
+
 }
+
 /**************************HORIZONTAL*******************************/
 /*Tamaño celulares*/
 @media (max-width: 926px) and (orientation: landscape) {
@@ -97,8 +192,9 @@
 
     .secundario {
         display: block;
-        font-size: 1.4em;
+        font-size: 1.32em;
     }
+
     .carousel-computadora {
         display: block;
     }
@@ -106,23 +202,71 @@
     .carousel-movil {
         display: none;
     }
+    .minicon {
+        width: 11em;
+    }
+    .icono {
+        width: 5em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 20px;
+    }
 }
+@media (min-width:500px) and (max-width:600px) and (orientation:landscape){
+    .minicon {
+        width: 8em;
+    }
+    .icono {
+        width: 5em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 20px;
+    }
+}
+
 /*Tamaño tabletas*/
-@media (min-width: 927px) and (max-width: 1300px) and (orientation: landscape){
+@media (min-width: 927px) and (max-width: 1300px) and (orientation: landscape) {
     .principal {
         font-size: 2.3em;
     }
+
     .secundario {
         display: block;
         font-size: 1.7em;
-        margin-top: 10px;
+        margin-top: 0.62em;
     }
-    
+
     .carousel-computadora {
         display: block;
     }
-
-    .carousel-movil {
+.carousel-movil {
         display: none;
+    }
+    .minicon {
+        width: 15em;
+    }
+    .icono {
+        width: 7em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 28px;
     }
 }
