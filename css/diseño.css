@@ -57,13 +57,12 @@ li {
     border-top-right-radius: 100%;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%; 
-    width: 170px; 
-    height: 180px; 
+    width: 200px; 
+    height: 200px; 
     margin-top: 1px;
     margin-bottom: 20px;
     display: inline;
     line-height: 40px;
-
 }
 .contsubs{
     display: flex;
@@ -77,52 +76,11 @@ li {
 .correo{
     font-family: garamond;
 }
-.musica{
-    margin-left: 50px; 
-    margin-top: 50px; 
-    border-radius:12px; 
-    width: 400px;
-}
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 500px;
-    height: 400px;
-    position: relative;
-    top: -400px;
-    left: 600px;
-}
-.espacioFormulario{
-    width: 450px; 
-    border: black 1px solid;
-    margin-left: 20px
-}
-.espacioFormulario1{
-    width: 450px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
-    position: relative;
-    left: 230px;
-}
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-}
 
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-}
 
 /*****************************COMPUTADORA***************************/
 /*Tamaño computadora*/
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
     .carousel-computadora {
         display: block;
     }
@@ -142,7 +100,7 @@ li {
     }
 
     .minicon {
-        width: 21em;
+        width: 15em;
     }
     .icono {
         width: 5em;
@@ -156,11 +114,54 @@ li {
         color: black;
         font-size: 17px;
     }
+    .musica{
+        margin-left: 50px; 
+        margin-top: 50px; 
+        border-radius:12px; 
+        width: 400px;
+    }
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 500px;
+        height: 400px;
+        position: relative;
+        top: -400px;
+        left: 600px;
+    }
+    .espacioFormulario{
+        width: 450px; 
+        border: black 1px solid;
+        margin-left: 20px
+    }
+    .espacioFormulario1{
+        width: 450px; 
+        height: 100px; 
+        border: black 1px solid; 
+        margin-left: 20px;
+    }
+    .boton{
+        position: relative;
+        left: 230px;
+    }
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+    }
+    
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+    }
+
 }
 
 /****************************VERTICAL******************************/
-/* Tamaño celulares */
-@media (max-width: 600px) {
+/* Tamaño celulares ANDROID y apple grandes*/
+@media (max-width: 896px) {
     .principal {
         font-size: 1.3em;
     }
@@ -232,7 +233,7 @@ li {
     border: solid black 1px;
     width: 330px;
     height: 400px;
-    position:static; /* PONER ATENCION CON EL PIE DE PAGINA*/
+    position:static;
     margin-top: 40px;
     margin-left: 20px;  
 }
@@ -251,10 +252,147 @@ li {
     position: relative;
     left: 140px;
 }
+.lineaDivisoraFinal{
+    position: relative;
+    bottom: -310px;
+}
+.footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    bottom: -320px;
 }
 
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    bottom: -319px;
+}
+}
+
+
+/*Tamaño celulares APPLE pequeños*/
+@media (max-width: 330px) {
+    .principal {
+        font-size: 1.3em;
+    }
+
+    .secundario {
+        display: none;
+    }
+
+    .carousel-computadora {
+        display: none;
+    }
+
+    .carousel-movil {
+        display: block;
+    }
+
+    .minicon {
+        width: 5em;
+    }
+    .icono {
+        width: 3em;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: garamond;
+        color: black;
+        font-size: 16px;
+    }
+    .subtitulo{
+        font-size: 21px;
+    }
+    .libro{
+        border-top-left-radius: 100%; 
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%; 
+        width: 65px; 
+        height: 75px; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+}
+.contsubs{
+    display:grid;
+    align-items: center;
+}
+.subrecomendacion{
+    font-family: garamond;
+    font-size: 18px;
+
+}
+.correo{
+    font-family: garamond;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.musica{
+    margin-left: 25px; 
+    margin-top: 10px; 
+    border-radius:12px; 
+    width: 280px;
+}
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 280px;
+    height: 400px;
+    position:static;
+    margin-top: 40px;
+    margin-left: 25px;  
+}
+.espacioFormulario{
+    width: 250px; 
+    border: black 1px solid;
+    margin-left: 20px;
+}
+.espacioFormulario1{
+    width: 250px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 120px;
+}
+.lineaDivisoraFinal{
+    position: relative;
+    bottom: -310px;
+}
+.footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    bottom: -320px;
+}
+
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    bottom: -319px;
+}
+}
+
+
+
 /* Tamaño tabletas */
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px){
     .principal {
         font-size: 2em;
     }
@@ -272,7 +410,7 @@ li {
     }
 
     .subtitulo {
-        font-size: 2em;
+        font-size: em;
     }
 
     /* .groupText {
@@ -341,7 +479,7 @@ li {
     top: -450px;
     left: 400px;
     margin-top: 40px;
-    margin-left: 40px;  
+    margin-left: 15px;  
 }
 .espacioFormulario{
     width: 300px; 
@@ -365,15 +503,35 @@ li {
 .subtituloFormulario1{
     font-size: 23px;
 }
+
+/*.lineaDivisoraFinal{
+    position: relative;
+    bottom: 380px;
+}*/
+.footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    top: 10px;
 }
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    top: 15px;
+}}
+
+
 
 /**************************HORIZONTAL*******************************/
 /*Tamaño celulares*/
-@media (max-width: 926px) and (orientation: landscape) {
+@media (min-width:414px)and (max-width: 915px) and (orientation:landscape){
     .principal {
         font-size: 1.7em;
     }
-
     .secundario {
         display: block;
         font-size: 1.32em;
@@ -450,8 +608,29 @@ li {
 .subtituloFormulario1{
     font-size: 18px;
 }
+.lineaDivisoraFinal{
+    position: relative;
+    top: 10px;
 }
-@media (min-width:500px) and (max-width:600px) and (orientation:landscape){
+.footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    top: 10px;
+}
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    top: 15px;
+}
+}
+
+/* Celulares pequeños*/
+@media (min-width:360px)and (max-width:780px) and (orientation:landscape){
     .minicon {
         width: 8em;
     }
@@ -515,9 +694,30 @@ li {
 .subtituloFormulario1{
     font-size: 18px;
 }
+.lineaDivisoraFinal{
+    position: relative;
+    top: 360px
+}
+.footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    top: 360px;
+}
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    top: 362px;
+}
+}
 
 /*Tamaño tabletas*/
-@media (min-width: 927px) and (max-width: 1300px) and (orientation: landscape){
+@media (min-width: 916px) and (max-width: 1280px)
+    and (orientation: landscape){
     .principal {
         font-size: 2.3em;
     }
@@ -562,5 +762,87 @@ li {
         display: inline;
         line-height: 40px;
 }
-
+.musica{
+    margin-left: 70px; 
+    margin-top: 10px; 
+    border-radius:12px; 
+    width: 340px;
 }
+.formularioDudas {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 340px;
+    height: 400px;
+    position:absolute; 
+    top: 1340px;
+    left: 500px;
+    margin-left: 80px;
+   
+}
+.espacioFormulario{
+    width: 300px; 
+    border: black 1px solid;
+    margin-left: 20px;
+}
+.espacioFormulario1{
+    width: 300px; 
+    height: 100px; 
+    border: black 1px solid; 
+    margin-left: 20px;
+}
+.boton{
+    position: relative;
+    left: 130px;
+}
+.subtituloFormulario1{
+    font-size: 18px;
+}
+.lineaDivisoraFinal{
+    position: relative;
+    top: 360px
+}
+.footer {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    top: 360px;
+}
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    top: 362px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
