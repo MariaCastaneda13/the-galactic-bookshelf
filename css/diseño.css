@@ -918,13 +918,13 @@ li {
 .font{
     background-color: #2C1F36;
     height: 170px;
-    width: 670px;
+    width: 1349px;
 
 }
 .img{
     height: 170px;
     position: relative;
-    left: 669px;
+    left: 600px;
 }
 .titulo{
     font-family: garamond;
@@ -940,13 +940,7 @@ li {
     font-size: 18px;
     margin-top: 15px;
 }
-.linkstemas{
-    background-color: white;
-    width: 200px;
-    position: absolute;
-    top:500px;
-    
-}
+
 .apartado{
     margin: 5px;
     font-size: 13px;
@@ -965,19 +959,49 @@ li {
     font-size: 27px;
 }
 .abpeque{
-    position:absolute;
-    left: 310px;
-    
-margin-top: 40px;}
-.lineaDivisora-audiolibros1{
-    margin-top: 270px;
-    margin-left: 230px; 
-    margin-right: 10px;   
+    margin-left:10%;
+margin-top: 40px;
 }
 
+.container-audie{
+    width: 440px;
+    margin-top: 50px;
+}
+.imagenaudie{
+    width: 160px;
+    margin-left: 500px;
+    margin-top: -120px;
+}
+.imagenaudie1{
+    width: 160px;
+    margin-left: 100px;
+    margin-top: -120px;
 
+}
+.container-infogral{
+    width: 1030px;
+    margin-left: 240px;
+    
+}
+.podcast {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+.imagenpodcast{
+    width: 160px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
 
-
+.linkstemas{
+    background-color: white;
+    width: 200px;
+    height: 710px;
+    position: absolute;
+    top:500px;
+    
+}
 
 /*Tamaño computadora*/
 @media (min-width: 1025px) {}
