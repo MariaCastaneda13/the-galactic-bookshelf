@@ -1,4 +1,4 @@
-/******************************GENERAL************************/
+/******************************INICIO************************************/
 A {
     text-decoration: none;
 }
@@ -32,6 +32,7 @@ li {
 .principal {
     font-size: 1.4em;
     margin-bottom: 0.37em;
+    font-family: garamond;
 }
 
 .secundario {
@@ -42,38 +43,46 @@ li {
 .lineaDivisora {
     border-top: 0.06em solid black;
     margin-top: 0.06em;
+    margin-top: 0.06em;
+    margin-left: 40px; 
+    margin-right: 40px
 }
 
 .subtitulo {
     font-family: garamond;
 }
-.lecturasImp{
+
+.lecturasImp {
     background-color: #22412A;
     line-height: 40px;
 
 }
-.libro{
-    border-top-left-radius: 100%; 
+
+.libro {
+    border-top-left-radius: 100%;
     border-top-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%; 
-    width: 200px; 
-    height: 200px; 
+    border-bottom-right-radius: 100%;
+    width: 200px;
+    height: 200px;
     margin-top: 1px;
     margin-bottom: 20px;
     display: inline;
     line-height: 40px;
 }
-.contsubs{
+
+.contsubs {
     display: flex;
     align-items: center;
 }
-.subrecomendacion{
+
+.subrecomendacion {
     font-family: garamond;
     font-size: 23px;
     margin-left: 15px;
 }
-.correo{
+
+.correo {
     font-family: garamond;
 }
 
@@ -102,6 +111,7 @@ li {
     .minicon {
         width: 15em;
     }
+
     .icono {
         width: 5em;
         display: inline;
@@ -114,12 +124,14 @@ li {
         color: black;
         font-size: 17px;
     }
-    .musica{
-        margin-left: 50px; 
-        margin-top: 50px; 
-        border-radius:12px; 
+
+    .musica {
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 12px;
         width: 400px;
     }
+
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
@@ -129,28 +141,32 @@ li {
         top: -400px;
         left: 600px;
     }
-    .espacioFormulario{
-        width: 450px; 
+
+    .espacioFormulario {
+        width: 450px;
         border: black 1px solid;
         margin-left: 20px
     }
-    .espacioFormulario1{
-        width: 450px; 
-        height: 100px; 
-        border: black 1px solid; 
+
+    .espacioFormulario1 {
+        width: 450px;
+        height: 100px;
+        border: black 1px solid;
         margin-left: 20px;
     }
-    .boton{
+
+    .boton {
         position: relative;
         left: 230px;
     }
+
     .footer {
         text-align: center;
         font-family: Garamond;
         font-size: small;
         margin-bottom: 0.03em;
     }
-    
+
     .footer-date {
         text-align: center;
         font-family: Garamond;
@@ -181,6 +197,7 @@ li {
     .minicon {
         width: 5em;
     }
+
     .icono {
         width: 3em;
         display: inline;
@@ -193,85 +210,97 @@ li {
         color: black;
         font-size: 16px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 21px;
     }
-    .libro{
-        border-top-left-radius: 100%; 
+
+    .libro {
+        border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        border-bottom-right-radius: 100%; 
-        width: 65px; 
-        height: 75px; 
+        border-bottom-right-radius: 100%;
+        width: 65px;
+        height: 75px;
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
         line-height: 40px;
-}
-.contsubs{
-    display:grid;
-    align-items: center;
-}
-.subrecomendacion{
-    font-family: garamond;
-    font-size: 18px;
+    }
 
-}
-.correo{
-    font-family: garamond;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-.musica{
-    margin-left: 15px; 
-    margin-top: 10px; 
-    border-radius:12px; 
-    width: 340px;
-}
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 330px;
-    height: 400px;
-    position:static;
-    margin-top: 40px;
-    margin-left: 20px;  
-}
-.espacioFormulario{
-    width: 300px; 
-    border: black 1px solid;
-    margin-left: 20px;
-}
-.espacioFormulario1{
-    width: 300px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
-    position: relative;
-    left: 140px;
-}
-.lineaDivisoraFinal{
-    position: relative;
-    bottom: -310px;
-}
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-    position: relative;
-    bottom: -320px;
-}
+    .contsubs {
+        display: grid;
+        align-items: center;
+    }
 
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    position: relative;
-    bottom: -319px;
-}
+    .subrecomendacion {
+        font-family: garamond;
+        font-size: 18px;
+
+    }
+
+    .correo {
+        font-family: garamond;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .musica {
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 340px;
+    }
+
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 330px;
+        height: 400px;
+        position: static;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario {
+        width: 300px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 300px;
+        height: 100px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        position: relative;
+        left: 140px;
+    }
+
+    .lineaDivisoraFinal {
+        position: relative;
+        bottom: -310px;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -320px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -319px;
+    }
 }
 
 
@@ -296,6 +325,7 @@ li {
     .minicon {
         width: 5em;
     }
+
     .icono {
         width: 3em;
         display: inline;
@@ -308,91 +338,103 @@ li {
         color: black;
         font-size: 16px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 21px;
     }
-    .libro{
-        border-top-left-radius: 100%; 
+
+    .libro {
+        border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        border-bottom-right-radius: 100%; 
-        width: 65px; 
-        height: 75px; 
+        border-bottom-right-radius: 100%;
+        width: 65px;
+        height: 75px;
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
         line-height: 40px;
-}
-.contsubs{
-    display:grid;
-    align-items: center;
-}
-.subrecomendacion{
-    font-family: garamond;
-    font-size: 18px;
+    }
 
-}
-.correo{
-    font-family: garamond;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-.musica{
-    margin-left: 25px; 
-    margin-top: 10px; 
-    border-radius:12px; 
-    width: 280px;
-}
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 280px;
-    height: 400px;
-    position:static;
-    margin-top: 40px;
-    margin-left: 25px;  
-}
-.espacioFormulario{
-    width: 250px; 
-    border: black 1px solid;
-    margin-left: 20px;
-}
-.espacioFormulario1{
-    width: 250px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
-    position: relative;
-    left: 120px;
-}
-.lineaDivisoraFinal{
-    position: relative;
-    bottom: -310px;
-}
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-    position: relative;
-    bottom: -320px;
-}
+    .contsubs {
+        display: grid;
+        align-items: center;
+    }
 
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    position: relative;
-    bottom: -319px;
-}
+    .subrecomendacion {
+        font-family: garamond;
+        font-size: 18px;
+
+    }
+
+    .correo {
+        font-family: garamond;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .musica {
+        margin-left: 25px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 280px;
+    }
+
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 280px;
+        height: 400px;
+        position: static;
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+
+    .espacioFormulario {
+        width: 250px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 250px;
+        height: 100px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        position: relative;
+        left: 120px;
+    }
+
+    .lineaDivisoraFinal {
+        position: relative;
+        bottom: -310px;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -320px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -319px;
+    }
 }
 
 
 
 /* Tamaño tabletas */
-@media (min-width: 768px) and (max-width: 1280px){
+@media (min-width: 768px) and (max-width: 1280px) {
     .principal {
         font-size: 2em;
     }
@@ -436,102 +478,113 @@ li {
         font-size: 23px;
 
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 40px;
     }
-    .libro{
-        border-top-left-radius: 100%; 
+
+    .libro {
+        border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        border-bottom-right-radius: 100%; 
-        width: 170px; 
-        height: 180px; 
+        border-bottom-right-radius: 100%;
+        width: 170px;
+        height: 180px;
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
         line-height: 40px;
-}
-.contsubs{
-    display:grid;
-    align-items: center;
-}
-.subrecomendacion{
-    font-family: garamond;
-    font-size: 27px;
-}
-.correo{
-    font-family: garamond;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-.musica{
-    margin-left: 30px; 
-    margin-top: 10px; 
-    border-radius:12px; 
-    width: 340px;
-}
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 340px;
-    height: 400px;
-    position:relative;
-    top: -450px;
-    left: 400px;
-    margin-top: 40px;
-    margin-left: 15px;  
-}
-.espacioFormulario{
-    width: 300px; 
-    border: black 1px solid;
-    margin-left: 20px;
-}
-.espacioFormulario1{
-    width: 300px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
-    position: relative;
-    left: 140px;
-    top: -14px;
-}
-.subtituloFormulario{
-    font-size: 26px;
-}
-.subtituloFormulario1{
-    font-size: 23px;
-}
+    }
 
-/*.lineaDivisoraFinal{
-    position: relative;
-    bottom: 380px;
-}*/
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-    position: relative;
-    top: 10px;
+    .contsubs {
+        display: grid;
+        align-items: center;
+    }
+
+    .subrecomendacion {
+        font-family: garamond;
+        font-size: 27px;
+    }
+
+    .correo {
+        font-family: garamond;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .musica {
+        margin-left: 30px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 340px;
+    }
+
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 340px;
+        height: 400px;
+        position: relative;
+        top: -450px;
+        left: 400px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .espacioFormulario {
+        width: 300px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 300px;
+        height: 100px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        position: relative;
+        left: 140px;
+        top: -14px;
+    }
+
+    .subtituloFormulario {
+        font-size: 26px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: 23px;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        top: 10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        top: 15px;
+    }
 }
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    position: relative;
-    top: 15px;
-}}
 
 
 
 /**************************HORIZONTAL*******************************/
 /*Tamaño celulares*/
-@media (min-width:414px)and (max-width: 915px) and (orientation:landscape){
+@media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {
     .principal {
         font-size: 1.7em;
     }
+
     .secundario {
         display: block;
         font-size: 1.32em;
@@ -544,9 +597,11 @@ li {
     .carousel-movil {
         display: none;
     }
+
     .minicon {
         width: 11em;
     }
+
     .icono {
         width: 5em;
         display: inline;
@@ -559,81 +614,93 @@ li {
         color: black;
         font-size: 20px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 36px;
     }
-    .libro{
-        border-top-left-radius: 100%; 
+
+    .libro {
+        border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        border-bottom-right-radius: 100%; 
-        width: 140px; 
-        height: 150px; 
+        border-bottom-right-radius: 100%;
+        width: 140px;
+        height: 150px;
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
         line-height: 40px;
-}
-.musica{
-    margin-left: 15px; 
-    margin-top: 10px; 
-    border-radius:12px; 
-    width: 340px;
-}
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 300px;
-    height: 400px;
-    position:relative; 
-    top: -445px;
-    left: 380px;
-   
-}
-.espacioFormulario{
-    width: 260px; 
-    border: black 1px solid;
-    margin-left: 20px;
-}
-.espacioFormulario1{
-    width: 260px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
-    position: relative;
-    left: 125px;
-}
-.subtituloFormulario1{
-    font-size: 18px;
-}
-.lineaDivisoraFinal{
-    position: relative;
-    top: 10px;
-}
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-    position: relative;
-    top: 10px;
-}
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    position: relative;
-    top: 15px;
-}
+    }
+
+    .musica {
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 340px;
+    }
+
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 300px;
+        height: 400px;
+        position: relative;
+        top: -445px;
+        left: 380px;
+
+    }
+
+    .espacioFormulario {
+        width: 260px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 260px;
+        height: 100px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        position: relative;
+        left: 125px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: 18px;
+    }
+
+    .lineaDivisoraFinal {
+        position: relative;
+        top: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        top: 10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        top: 15px;
+    }
 }
 
 /* Celulares pequeños*/
-@media (min-width:360px)and (max-width:780px) and (orientation:landscape){
+@media (min-width:360px)and (max-width:780px) and (orientation:landscape) {
     .minicon {
         width: 8em;
     }
+
     .icono {
         width: 5em;
         display: inline;
@@ -646,95 +713,110 @@ li {
         color: black;
         font-size: 20px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 30px;
     }
-    .libro{
-        border-top-left-radius: 100%; 
+
+    .libro {
+        border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        border-bottom-right-radius: 100%; 
-        width: 110px; 
-        height: 120px; 
+        border-bottom-right-radius: 100%;
+        width: 110px;
+        height: 120px;
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
         line-height: 40px;
-}
-.musica{
-    margin-left: 70px; 
-    margin-top: 10px; 
-    border-radius:12px; 
-    width: 340px;
-}
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 340px;
-    height: 400px;
-    position:static; 
-    margin-left: 80px;
-   
-}
-.espacioFormulario{
-    width: 300px; 
-    border: black 1px solid;
-    margin-left: 20px;
-}
-.espacioFormulario1{
-    width: 300px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
-    position: relative;
-    left: 130px;
-}
-.subtituloFormulario1{
-    font-size: 18px;
-}
-.lineaDivisoraFinal{
-    position: relative;
-    top: 360px
-}
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-    position: relative;
-    top: 360px;
-}
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    position: relative;
-    top: 362px;
-}
+    }
+
+    .musica {
+        margin-left: 70px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 340px;
+    }
+
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 340px;
+        height: 400px;
+        position: static;
+        margin-left: 80px;
+
+    }
+
+    .espacioFormulario {
+        width: 300px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 300px;
+        height: 100px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        position: relative;
+        left: 130px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: 18px;
+    }
+
+    .lineaDivisoraFinal {
+        position: relative;
+        top: 360px
+    }
+
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        top: 360px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        top: 362px;
+    }
 }
 
 /*Tamaño tabletas*/
-@media (min-width: 916px) and (max-width: 1280px)
-    and (orientation: landscape){
+@media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {
     .principal {
         font-size: 2.3em;
     }
+
     .secundario {
         display: block;
         font-size: 1.7em;
         margin-top: 0.62em;
     }
+
     .carousel-computadora {
         display: block;
     }
-.carousel-movil {
+
+    .carousel-movil {
         display: none;
     }
+
     .minicon {
         width: 15em;
     }
+
     .icono {
         width: 7em;
         display: inline;
@@ -747,102 +829,169 @@ li {
         color: black;
         font-size: 28px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 40px;
     }
-    .libro{
-        border-top-left-radius: 100%; 
+
+    .libro {
+        border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        border-bottom-right-radius: 100%; 
-        width: 190px; 
-        height: 200px; 
+        border-bottom-right-radius: 100%;
+        width: 190px;
+        height: 200px;
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
         line-height: 40px;
+    }
+
+    .musica {
+        margin-left: 70px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 340px;
+    }
+
+    .formularioDudas {
+        background-color: lightgray;
+        border: solid black 1px;
+        width: 340px;
+        height: 400px;
+        position: absolute;
+        top: 1340px;
+        left: 500px;
+        margin-left: 80px;
+
+    }
+
+    .espacioFormulario {
+        width: 300px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 300px;
+        height: 100px;
+        border: black 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        position: relative;
+        left: 130px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: 18px;
+    }
+
+    .lineaDivisoraFinal {
+        position: relative;
+        top: 360px
+    }
+
+    .footer {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        top: 360px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        top: 362px;
+    }
 }
-.musica{
-    margin-left: 70px; 
-    margin-top: 10px; 
-    border-radius:12px; 
-    width: 340px;
+
+
+
+/************************************AUDIOLIBROS**************************/
+
+.font{
+    background-color: #2C1F36;
+    height: 170px;
+    width: 670px;
+
 }
-.formularioDudas {
-    background-color: lightgray;
-    border: solid black 1px;
-    width: 340px;
-    height: 400px;
-    position:absolute; 
-    top: 1340px;
-    left: 500px;
-    margin-left: 80px;
-   
-}
-.espacioFormulario{
-    width: 300px; 
-    border: black 1px solid;
-    margin-left: 20px;
-}
-.espacioFormulario1{
-    width: 300px; 
-    height: 100px; 
-    border: black 1px solid; 
-    margin-left: 20px;
-}
-.boton{
+.img{
+    height: 170px;
     position: relative;
-    left: 130px;
+    left: 669px;
 }
-.subtituloFormulario1{
+.titulo{
+    font-family: garamond;
+    font-size: 50px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 120px;
+    right: 0px;
+}
+
+.subtitulo-audiolibros{
+    font-family: garamond;
     font-size: 18px;
+    margin-top: 15px;
 }
-.lineaDivisoraFinal{
-    position: relative;
-    top: 360px
+.linkstemas{
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top:500px;
+    
 }
-.footer {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    margin-bottom: 0.03em;
-    position: relative;
-    top: 360px;
+.apartado{
+    margin: 5px;
+    font-size: 13px;
+    color:#347D56;
 }
-.footer-date {
-    text-align: center;
-    font-family: Garamond;
-    font-size: small;
-    position: relative;
-    top: 362px;
+.lineaDivisora-audiolibros{
+    margin-left: 10px; 
+    margin-right: 10px;   
 }
+.imagenaudiolibro{
+    width: 160px;
+    margin-left: 30px;
+}
+.mejores-ab{
+    font-family: garamond;
+    font-size: 27px;
+}
+.abpeque{
+    position:absolute;
+    left: 310px;
+    
+margin-top: 40px;}
+.lineaDivisora-audiolibros1{
+    margin-top: 270px;
+    margin-left: 230px; 
+    margin-right: 10px;   
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Tamaño computadora*/
+@media (min-width: 1025px) {}
+/****************************VERTICAL******************************/
+/* Tamaño celulares ANDROID y apple grandes*/
+@media (max-width: 896px) {}
+ /*Tamaño celulares APPLE pequeños*/
+ @media (max-width: 330px) {}
+  /* Tamaño tabletas */
+ @media (min-width: 768px) and (max-width: 1280px) {}
+ /**************************HORIZONTAL*******************************/
+/*Tamaño celulares*/
+ @media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {}
+/* Celulares pequeños*/
+@media (min-width:360px)and (max-width:780px) and (orientation:landscape) {}
+/*Tamaño tabletas*/
+@media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {}
