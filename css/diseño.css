@@ -44,7 +44,7 @@ li {
     border-top: 0.06em solid black;
     margin-top: 0.06em;
     margin-top: 0.06em;
-    margin-left: 40px; 
+    margin-left: 40px;
     margin-right: 40px
 }
 
@@ -915,18 +915,20 @@ li {
 
 /************************************AUDIOLIBROS**************************/
 
-.font{
+.font {
     background-color: #2C1F36;
     height: 170px;
     width: 1349px;
 
 }
-.img{
+
+.img {
     height: 170px;
     position: relative;
     left: 600px;
 }
-.titulo{
+
+.titulo-imagen {
     font-family: garamond;
     font-size: 50px;
     margin-left: 50px;
@@ -934,88 +936,597 @@ li {
     bottom: 120px;
     right: 0px;
 }
+.principal-audiolibros {
+    font-size: 1.4em;
+    margin-bottom: 0.37em;
+    font-family: garamond;
+    margin-top: -50px;
+}
 
-.subtitulo-audiolibros{
+.secundario-audiolibros {
+    font-size: 1.06em;
+    margin-bottom: 0.93em;
+    margin-top: -20px;
+}
+
+.subtitulo-audiolibros {
     font-family: garamond;
     font-size: 18px;
     margin-top: 15px;
 }
 
-.apartado{
+.apartado {
     margin: 5px;
     font-size: 13px;
-    color:#347D56;
+    color: #347D56;
 }
-.lineaDivisora-audiolibros{
-    margin-left: 10px; 
-    margin-right: 10px;   
-}
-.imagenaudiolibro{
+
+.imagenaudiolibro {
     width: 160px;
     margin-left: 30px;
 }
-.mejores-ab{
+
+.mejores-ab {
     font-family: garamond;
     font-size: 27px;
 }
-.abpeque{
-    margin-left:10%;
-margin-top: 40px;
+
+.abpeque {
+    margin-left: 10%;
+    margin-top: 40px;
 }
 
-.container-audie{
+.container-audie {
     width: 440px;
     margin-top: 50px;
+    margin-left: 30px;
 }
-.imagenaudie{
+
+.imagenaudie {
     width: 160px;
     margin-left: 500px;
     margin-top: -120px;
 }
-.imagenaudie1{
+
+.imagenaudie1 {
     width: 160px;
     margin-left: 100px;
     margin-top: -120px;
 
 }
-.container-infogral{
+
+.container-infogral {
     width: 1030px;
     margin-left: 240px;
-    
+
 }
+
 .podcast {
     width: 300px;
     height: 300px;
     margin-left: 20px;
 }
-.imagenpodcast{
+
+.podcast1 {
+    width: 160px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.imagenpodcast {
     width: 160px;
     margin-left: 100px;
     margin-top: 20px;
 }
 
-.linkstemas{
+.linkstemas {
     background-color: white;
     width: 200px;
     height: 710px;
     position: absolute;
-    top:500px;
-    
+    top: 500px;
+
 }
+.footer-audiolibros {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    margin-bottom: 0.03em;
+    position: relative;
+    top: 10px;
+}
+
+.footer-date {
+    text-align: center;
+    font-family: Garamond;
+    font-size: small;
+    position: relative;
+    top: 15px;}
+
+
 
 /*Tamaño computadora*/
 @media (min-width: 1025px) {}
-/****************************VERTICAL******************************/
+
+
+
+
+
+/************************VERTICAL******************************/
 /* Tamaño celulares ANDROID y apple grandes*/
-@media (max-width: 896px) {}
- /*Tamaño celulares APPLE pequeños*/
- @media (max-width: 330px) {}
-  /* Tamaño tabletas */
- @media (min-width: 768px) and (max-width: 1280px) {}
- /**************************HORIZONTAL*******************************/
+@media (max-width: 896px) {
+    .font {
+        height: 170px;
+        width: 410px;
+    }
+    .img {
+        display: none;
+    }
+    .principal-audiolibros {
+        font-size: 1.4em;
+        margin-bottom: 0.37em;
+        font-family: garamond;
+        margin-top: -50px;
+    }
+    
+    .secundario-audiolibros {
+        font-size: 1.1em;
+        margin-bottom: 0.93em;
+        margin-top: 10px;
+    }
+    
+
+    .container-infogral {
+        width: 480px;
+        margin-left: -80px;
+        
+    }
+
+    .titulo-audies {
+        margin-left: 70px;
+    }
+
+    .imagenaudiolibro {
+        width: 150px;
+        margin-left: 35px;
+    }
+
+    .mejores-ab {
+        font-family: garamond;
+        font-size: 27px;
+        margin-left: 50px;
+
+    }
+
+    .container-audie {
+        width: 362px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .imagenaudie {
+        width: 160px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .imagenaudie1 {
+        width: 159px;
+        margin-left: 240px;
+        margin-top: -200px;
+    }
+    .podcast1 {
+        width: 140px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    .imagenpodcast {
+        width: 140px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .linkstemas {
+        display: none;
+    }
+    
+    .footer-audiolibros {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -15px;
+    }
+}
+
+
+/*Tamaño celulares APPLE pequeños*/
+@media (max-width: 330px) {
+    .font {
+        height: 170px;
+        width: 319px;
+    }
+    .img {
+        display: none;
+    }
+    .principal-audiolibros {
+        font-size: 1.4em;
+        margin-bottom: 0.37em;
+        font-family: garamond;
+        margin-top: -50px;
+    }
+    
+    .secundario-audiolibros {
+      display: none;
+    }
+    .container-infogral {
+        width: 395px;
+        margin-left: -80px;
+    }
+
+    .titulo-audies {
+        margin-left: 80px;
+    }
+
+    .imagenaudiolibro {
+        width: 122px;
+        margin-left: 40px;
+    }
+
+    .mejores-ab {
+        font-family: garamond;
+        font-size: 27px;
+        margin-left: 80px;
+    }
+
+    .container-audie {
+        width: 325px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .imagenaudie {
+        width: 130px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .imagenaudie1 {
+        width: 130px;
+        margin-left: 230px;
+        margin-top: -170px;
+    }
+    .podcast1 {
+        width: 130px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .imagenpodcast {
+        width: 130px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .linkstemas {
+        display: none;
+    }
+    
+    .footer-audiolibros {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -15px;
+    }
+
+}
+
+/* Tamaño tabletas */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .font {
+        height: 170px;
+        width: 769px;
+    }
+    .img {
+        display: flex;
+        left: 1px;
+        width: 768px;
+     }
+    .titulo-imagen{
+        display: none;
+    }
+    .principal-audiolibros {
+        font-size: 1.9em;
+        margin-bottom: 0.37em;
+        font-family: garamond;
+        margin-top: 10px;
+    }
+    
+    .secundario-audiolibros {
+      display: none;
+    }
+    .container-infogral {
+        width: 700px;
+        margin-left: 40px;
+    }
+    .titulo-audies {
+        margin-left: 80px;
+    }
+
+    .imagenaudiolibro {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .mejores-ab {
+        font-family: garamond;
+        font-size: 35px;
+        margin-left: 80px;
+    }
+
+    .container-audie {
+        width: 600px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .frase-audie{
+        font-size: 20px;
+    }
+
+    .imagenaudie {
+        width: 200px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .imagenaudie1 {
+        width: 200px;
+        margin-left: 360px;
+        margin-top: -240px;
+    }
+    
+    .podcast1 {
+        width: 200px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .imagenpodcast {
+        width: 200px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    .linkstemas {
+        display: none;  }
+    
+    .footer-audiolibros {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -15px;
+    }
+
+}
+
+
+
+
+/********************HORIZONTAL*******************************/
 /*Tamaño celulares*/
- @media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {}
+@media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {
+}
+
 /* Celulares pequeños*/
-@media (min-width:360px)and (max-width:780px) and (orientation:landscape) {}
+@media (min-width:360px)and (max-width:780px) and (orientation:landscape) {
+    .font {
+        height: 170px;
+        width: 569px;
+    }
+    .img {
+        display: flex;
+        left: 1px;
+        width: 568px;     }
+    .titulo-imagen{
+        display: none;
+    }
+    .principal-audiolibros {
+        font-size: 1.6em;
+        margin-bottom: 0.37em;
+        font-family: garamond;
+        margin-top: 10px;
+    }
+        .secundario-audiolibros {
+      display: none;
+    }
+    .container-infogral {
+        width: 647px;
+    }
+    .titulo-audies {
+        margin-left: 80px;
+    }
+
+    .imagenaudiolibro {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .mejores-ab {
+        font-family: garamond;
+        font-size: 35px;
+        margin-left: 80px;
+    }
+
+    .container-audie {
+        width: 600px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .frase-audie{
+        font-size: 20px;
+    }
+
+    .imagenaudie {
+        width: 200px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .imagenaudie1 {
+        width: 200px;
+        margin-left: 360px;
+        margin-top: -240px;
+    }
+    
+    .podcast1 {
+        width: 200px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .imagenpodcast {
+        width: 200px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    .linkstemas {
+        display: none;  }
+    
+    .footer-audiolibros {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -15px;
+    }
+
+}
+
 /*Tamaño tabletas*/
-@media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {}
+@media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {
+    .font {
+        height: 170px;
+        width: 1025px;
+    }
+    .img {
+        display: flex;
+        left: 120px;
+        width: 800px;     }
+    .titulo-imagen{
+        display: none;
+    }
+    .principal-audiolibros {
+        font-size: 2.2em;
+        margin-bottom: 0.37em;
+        font-family: garamond;
+        margin-top: 10px;
+    }
+    .secundario-audiolibros {
+      display: none;
+    }
+    .container-infogral {
+        width: 980px;
+    }
+    .titulo-audies {
+        margin-left: 80px;
+    }
+
+    .imagenaudiolibro {
+        width: 280px;
+        margin-left: 50px;
+    }
+
+    .mejores-ab {
+        font-family: garamond;
+        font-size: 35px;
+        margin-left: 80px;
+    }
+
+    .container-audie {
+        width: 900px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .frase-audie{
+        font-size: 26px;
+    }
+
+    .imagenaudie {
+        width: 280px;
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+
+    .imagenaudie1 {
+        width: 280px;
+        margin-left: 480px;
+        margin-top: -320px;
+    }
+    
+    .podcast1 {
+        width: 280px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    .imagenpodcast {
+        width: 280px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    .linkstemas {
+        display: none;  }
+    
+    .footer-audiolibros {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        margin-bottom: 0.03em;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: Garamond;
+        font-size: small;
+        position: relative;
+        bottom: -15px;
+    }
+}
