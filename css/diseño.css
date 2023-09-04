@@ -1530,3 +1530,45 @@ li {
         bottom: -15px;
     }
 }
+
+/*AUTORES*/
+.primerLink {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.segundoLink {
+    background-color: lightgray;
+    border: solid black 1px;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.videos {
+    display: inline;
+}
+.bestBooks {
+    margin-left: 70px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    width: 170px;
+    height: 250px;
+    display: inline;
+}
+.iconSN {
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+    display: inline;
+}
