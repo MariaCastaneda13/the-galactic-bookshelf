@@ -1,3 +1,9 @@
-body{
-    font-family: garamond;
-}
+//imports
+@import"_vars";
+@import"_general";
+@import"_barranav";
+@import"_index";
+@import"_audiolibros";
+@import"_autores";
+@import"_ebooks";
+@import"_podcast";
