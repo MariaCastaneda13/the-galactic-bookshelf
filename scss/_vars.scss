@@ -4,11 +4,43 @@
 $mainColor: rgb(34,65, 42);
 $secondaryColor: rgb(44,31,54);
 $keyColor: rgb(11,11,11);
-$white: rgb(238,233,233);
+$colorBarra: rgb(238,233,233);
 
 //Tipografías
-$mainFont: Garamond;
+$textoGeneral: Garamond;
+$textoBarra: System-ui;
 
+//Tamaños textos computadora
 
-//Tamaños textos
-//$textSM:
+$textoSecundario: 1.1em;
+$textoPrincipal: 1.4em;
+$textoXs: 0.9em;
+$textoXxs: 0.81em;
+$textoMedium:1.8em;
+$textoLarge: 2em;
+$textoXlarge: 2.5em;
+
+//Tamaños imágenes y otros
+$imgXxsmall:3em;
+$imgXsmall:4em;
+$imgSmall:5em;
+$imgXxm: 7.5em;
+$imgXmedium:10em;
+$imgMedium:12em;
+$imgLarge: 12.5em;
+$imgXlarge:18.75em;
+$imgXxlarge:84.3em;
+
+//Tamaño música
+$mXxsmall: 8em;
+$mXsmall:15.5em;
+$mSmall:17.5em;
+$mMedium:21.25em;
+$mLarge: 25em;
+
+//tamaño formulario
+$formSmall: 6.25em;
+$formXxm: 18em;
+$formXmedium:20.6em;
+$formMedium:28.1em;
+$formXlarge: 31.25em;

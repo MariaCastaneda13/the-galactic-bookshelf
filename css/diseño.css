@@ -17,8 +17,8 @@ li {
 }
 
 .logo {
-    width: 18.75em;
-    height: 5em;
+    width: 18.75em; /*imgXlarge*/
+    height: 5em; /*imgSmall*/
 }
 
 .nav-link {
@@ -26,17 +26,17 @@ li {
 }
 
 .media-quote {
-    font-family: garamond;
+    font-family: garamond; /*textoGeneral*/
 }
 
 .principal {
-    font-size: 1.4em;
+    font-size: 1.4em; /*textoPrincipal*/
     margin-bottom: 0.37em;
-    font-family: garamond;
+    font-family: garamond; /*TextoGeneral*/
 }
 
 .secundario {
-    font-size: 1.06em;
+    font-size: 1.06em; /*textoSecundario*/
     margin-bottom: 0.93em;
 }
 
@@ -63,8 +63,8 @@ li {
     border-top-right-radius: 100%;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 12.5em; /*imgLarge*/
+    height: 12.5em; /*imgLarge*/
     margin-top: 1px;
     margin-bottom: 20px;
     display: inline;
@@ -78,7 +78,7 @@ li {
 
 .subrecomendacion {
     font-family: garamond;
-    font-size: 23px;
+    font-size: 23px; /*textoPrincipal*/
     margin-left: 15px;
 }
 
@@ -100,7 +100,6 @@ li {
 
     .carousel-item {
         padding: 20 px;
-        font-size: 5px;
     }
 
     .carousel-pequeno {
@@ -113,7 +112,7 @@ li {
     }
 
     .icono {
-        width: 5em;
+        width: 5em; /*imgSmall*/
         display: inline;
     }
 
@@ -122,35 +121,35 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 17px;
+        font-size: 1.1em; /*textoSecundario*/
     }
 
     .musica {
         margin-left: 50px;
         margin-top: 50px;
         border-radius: 12px;
-        width: 400px;
+        width: 25em; /*mLarge*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 500px;
-        height: 400px;
+        width: 31.25em; /*formXlarge*/
+        height: 25em; /*mLarge*/
         position: relative;
         top: -400px;
         left: 600px;
     }
 
     .espacioFormulario {
-        width: 450px;
+        width: 28.1em; /*formMedium*/
         border: black 1px solid;
         margin-left: 20px
     }
 
     .espacioFormulario1 {
-        width: 450px;
-        height: 100px;
+        width: 28.1em; /*formMedium*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -163,14 +162,14 @@ li {
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
     }
 
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
     }
 
 }
@@ -178,8 +177,8 @@ li {
 /****************************VERTICAL******************************/
 /* Tamaño celulares ANDROID y apple grandes*/
 @media (max-width: 896px) {
-    .principal {
-        font-size: 1.3em;
+    .principal { /**/
+        font-size: 1.4em;/*textoPrincipal*/
     }
 
     .secundario {
@@ -195,11 +194,11 @@ li {
     }
 
     .minicon {
-        width: 5em;
+        width: 5em; /*imgSmall*/
     }
 
     .icono {
-        width: 3em;
+        width: 3em; /*imgXxsmall*/
         display: inline;
     }
 
@@ -208,11 +207,11 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 16px;
+        font-size: 0.81em; /*textoXxs*/
     }
 
     .subtitulo {
-        font-size: 21px;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .libro {
@@ -220,8 +219,8 @@ li {
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        width: 65px;
-        height: 75px;
+        width: 4em; /*imgXsmall*/
+        height: 5em; /*imgSmall*/ 
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
@@ -235,13 +234,13 @@ li {
 
     .subrecomendacion {
         font-family: garamond;
-        font-size: 18px;
+        font-size: 1.1em; /*textoSecundario*/
 
     }
 
     .correo {
         font-family: garamond;
-        font-size: 12px;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 10px;
     }
 
@@ -249,28 +248,28 @@ li {
         margin-left: 15px;
         margin-top: 10px;
         border-radius: 12px;
-        width: 340px;
+        width: 21.25em; /*mMedium*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 330px;
-        height: 400px;
+        width: 20.6em; /*formXmedium*/
+        height: 25em; /*mLarge*/
         position: static;
         margin-top: 40px;
         margin-left: 20px;
     }
 
     .espacioFormulario {
-        width: 300px;
+        width: 18em; /*formXxm*/
         border: black 1px solid;
         margin-left: 20px;
     }
 
     .espacioFormulario1 {
-        width: 300px;
-        height: 100px;
+        width: 18em; /*formXxm*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -288,7 +287,7 @@ li {
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -320px;
@@ -297,7 +296,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -319px;
     }
@@ -307,7 +306,7 @@ li {
 /*Tamaño celulares APPLE pequeños*/
 @media (max-width: 330px) {
     .principal {
-        font-size: 1.3em;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .secundario {
@@ -323,11 +322,11 @@ li {
     }
 
     .minicon {
-        width: 5em;
+        width: 5em; /*imgSmall*/
     }
 
     .icono {
-        width: 3em;
+        width: 3em; /*imgXxsmall*/
         display: inline;
     }
 
@@ -336,11 +335,11 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 16px;
+        font-size: 0.8em; /*textoXxs*/
     }
 
     .subtitulo {
-        font-size: 21px;
+        font-size: 1.4em;  /*textoPrincipal*/
     }
 
     .libro {
@@ -348,8 +347,8 @@ li {
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        width: 65px;
-        height: 75px;
+        width: 4em; /*imgXsmall*/
+        height: 4em; /*imgXsmall*/
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
@@ -363,13 +362,13 @@ li {
 
     .subrecomendacion {
         font-family: garamond;
-        font-size: 18px;
+        font-size: 1.1em; /*textoSecundario*/
 
     }
 
     .correo {
         font-family: garamond;
-        font-size: 12px;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 10px;
     }
 
@@ -377,28 +376,28 @@ li {
         margin-left: 25px;
         margin-top: 10px;
         border-radius: 12px;
-        width: 280px;
+        width: 17.5em; /*mSmall*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 280px;
-        height: 400px;
+        width: 17.5em; /*mSmall*/
+        height: 25em; /*mLarge*/
         position: static;
         margin-top: 40px;
         margin-left: 25px;
     }
 
     .espacioFormulario {
-        width: 250px;
+        width: 15.5em; /*mXsmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
 
     .espacioFormulario1 {
-        width: 250px;
-        height: 100px;
+        width: 15.5em; /*mXsmall*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -416,7 +415,7 @@ li {
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -320px;
@@ -425,7 +424,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -319px;
     }
@@ -436,7 +435,7 @@ li {
 /* Tamaño tabletas */
 @media (min-width: 768px) and (max-width: 1280px) {
     .principal {
-        font-size: 2em;
+        font-size: 2em; /*textoLarge*/
     }
 
     .secundario {
@@ -451,22 +450,12 @@ li {
         display: block;
     }
 
-    .subtitulo {
-        font-size: em;
-    }
-
-    /* .groupText {
-        display: inline;
-        font-family: garamond;
-        font-size: 13px;
-        color: black; */
-
     .minicon {
-        width: 12em;
+        width: 12em; /*imgMedium*/
     }
 
     .icono {
-        width: 5em;
+        width: 5em; /*imgSmall*/
         display: inline;
     }
 
@@ -475,12 +464,12 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 23px;
+        font-size: 1.4em; /*textoPrincipal*/
 
     }
 
     .subtitulo {
-        font-size: 40px;
+        font-size: 2.5em; /*textoXlarge*/
     }
 
     .libro {
@@ -488,8 +477,8 @@ li {
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        width: 170px;
-        height: 180px;
+        width: 10em; /*imgXmedium*/
+        height: 10em; /*imgXmedium*/
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
@@ -503,12 +492,12 @@ li {
 
     .subrecomendacion {
         font-family: garamond;
-        font-size: 27px;
+        font-size: 2em; /*textoLarge*/
     }
 
     .correo {
         font-family: garamond;
-        font-size: 17px;
+        font-size: 1.4em; /*textoPrincipal*/
         margin-bottom: 10px;
     }
 
@@ -516,14 +505,14 @@ li {
         margin-left: 30px;
         margin-top: 10px;
         border-radius: 12px;
-        width: 340px;
+        width: 21.25em; /*mMedium*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 340px;
-        height: 400px;
+        width: 21.25em; /*mMedium*/
+        height: 25em; /*mLarge*/
         position: relative;
         top: -450px;
         left: 400px;
@@ -532,14 +521,14 @@ li {
     }
 
     .espacioFormulario {
-        width: 300px;
+        width: 18em; /*formXxm*/
         border: black 1px solid;
         margin-left: 20px;
     }
 
     .espacioFormulario1 {
-        width: 300px;
-        height: 100px;
+        width: 18em; /*formXxm*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -551,17 +540,17 @@ li {
     }
 
     .subtituloFormulario {
-        font-size: 26px;
+        font-size: 2em; /*textoLarge*/
     }
 
     .subtituloFormulario1 {
-        font-size: 23px;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         top: 10px;
@@ -570,7 +559,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         top: 15px;
     }
@@ -582,12 +571,12 @@ li {
 /*Tamaño celulares*/
 @media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {
     .principal {
-        font-size: 1.7em;
+        font-size: 2em; /*textoLarge*/
     }
 
     .secundario {
         display: block;
-        font-size: 1.32em;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .carousel-computadora {
@@ -599,11 +588,11 @@ li {
     }
 
     .minicon {
-        width: 11em;
+        width: 12em; /*imgMedium*/
     }
 
     .icono {
-        width: 5em;
+        width: 5em; /*imgSmall*/
         display: inline;
     }
 
@@ -612,11 +601,11 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 20px;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .subtitulo {
-        font-size: 36px;
+        font-size: 2.5em; /*textXlarge*/
     }
 
     .libro {
@@ -624,8 +613,8 @@ li {
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        width: 140px;
-        height: 150px;
+        width: 10em; /*imgXmedium*/
+        height: 10em; /*imgXmedium*/
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
@@ -636,14 +625,14 @@ li {
         margin-left: 15px;
         margin-top: 10px;
         border-radius: 12px;
-        width: 340px;
+        width: 21.25em; /*mMedium*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 300px;
-        height: 400px;
+        width: 20.6em; /*formXmedium*/
+        height: 25em;  /*mLarge*/
         position: relative;
         top: -445px;
         left: 380px;
@@ -651,14 +640,14 @@ li {
     }
 
     .espacioFormulario {
-        width: 260px;
+        width: 18em; /*formXxm*/
         border: black 1px solid;
         margin-left: 20px;
     }
 
     .espacioFormulario1 {
-        width: 260px;
-        height: 100px;
+        width: 18em; /*formXxm*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -669,7 +658,7 @@ li {
     }
 
     .subtituloFormulario1 {
-        font-size: 18px;
+        font-size: 1.1em; /*textoSecundario*/
     }
 
     .lineaDivisoraFinal {
@@ -680,7 +669,7 @@ li {
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         top: 10px;
@@ -689,7 +678,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         top: 15px;
     }
@@ -698,11 +687,11 @@ li {
 /* Celulares pequeños*/
 @media (min-width:360px)and (max-width:780px) and (orientation:landscape) {
     .minicon {
-        width: 8em;
+        width: 8em; /*mXxsmall*/
     }
 
     .icono {
-        width: 5em;
+        width: 5em;   /*imgSmall*/
         display: inline;
     }
 
@@ -711,11 +700,11 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 20px;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .subtitulo {
-        font-size: 30px;
+        font-size: 2em; /*textoLarge*/
     }
 
     .libro {
@@ -723,8 +712,8 @@ li {
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        width: 110px;
-        height: 120px;
+        width: 7.5em; /*imgXxm*/
+        height: 7.5em; /*imgXxm*/
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
@@ -735,28 +724,28 @@ li {
         margin-left: 70px;
         margin-top: 10px;
         border-radius: 12px;
-        width: 340px;
+        width: 21.25em; /*mMedium*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 340px;
-        height: 400px;
+        width: 20.6em; /*formXmedium*/
+        height: 25em; /*mLarge*/
         position: static;
         margin-left: 80px;
 
     }
 
     .espacioFormulario {
-        width: 300px;
+        width: 18em; /*formXxm*/
         border: black 1px solid;
         margin-left: 20px;
     }
 
     .espacioFormulario1 {
-        width: 300px;
-        height: 100px;
+        width: 18em; /*formXxm*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -767,7 +756,7 @@ li {
     }
 
     .subtituloFormulario1 {
-        font-size: 18px;
+        font-size: 1.1em; /*textoSecundario*/
     }
 
     .lineaDivisoraFinal {
@@ -778,7 +767,7 @@ li {
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         top: 360px;
@@ -787,7 +776,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         top: 362px;
     }
@@ -796,12 +785,12 @@ li {
 /*Tamaño tabletas*/
 @media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {
     .principal {
-        font-size: 2.3em;
+        font-size: 2.5em; /*textoXlarge*/
     }
 
     .secundario {
         display: block;
-        font-size: 1.7em;
+        font-size: 2em; /*textoLarge*/
         margin-top: 0.62em;
     }
 
@@ -814,11 +803,11 @@ li {
     }
 
     .minicon {
-        width: 15em;
+        width: 15.5em; /*mXsmall*/
     }
 
     .icono {
-        width: 7em;
+        width: 7.5em; /*imgXxm*/
         display: inline;
     }
 
@@ -827,11 +816,11 @@ li {
         display: inline;
         font-family: garamond;
         color: black;
-        font-size: 28px;
+        font-size: 2em; /*textoLarge*/
     }
 
     .subtitulo {
-        font-size: 40px;
+        font-size: 2.5em; /*textoXlarge*/
     }
 
     .libro {
@@ -839,8 +828,8 @@ li {
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        width: 190px;
-        height: 200px;
+        width: 12em; /*imgMedium*/
+        height: 12em; /*imgMedium*/
         margin-top: 1px;
         margin-bottom: 20px;
         display: inline;
@@ -851,14 +840,14 @@ li {
         margin-left: 70px;
         margin-top: 10px;
         border-radius: 12px;
-        width: 340px;
+        width: 21.25em; /*mMedium*/
     }
 
     .formularioDudas {
         background-color: lightgray;
         border: solid black 1px;
-        width: 340px;
-        height: 400px;
+        width: 21.25em; /*mMedium*/
+        height: 25em; /*mLarge*/
         position: absolute;
         top: 1340px;
         left: 500px;
@@ -867,14 +856,14 @@ li {
     }
 
     .espacioFormulario {
-        width: 300px;
+        width: 18em; /*formXxm*/
         border: black 1px solid;
         margin-left: 20px;
     }
 
     .espacioFormulario1 {
-        width: 300px;
-        height: 100px;
+        width: 18em; /*formXxm*/
+        height: 6.25em; /*formSmall*/
         border: black 1px solid;
         margin-left: 20px;
     }
@@ -885,7 +874,7 @@ li {
     }
 
     .subtituloFormulario1 {
-        font-size: 18px;
+        font-size: 1.4em; /*textoPrincipal*/
     }
 
     .lineaDivisoraFinal {
@@ -896,7 +885,7 @@ li {
     .footer {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         top: 360px;
@@ -905,7 +894,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         top: 362px;
     }
@@ -917,58 +906,58 @@ li {
 
 .font {
     background-color: #2C1F36;
-    height: 170px;
-    width: 1349px;
+    height: 10em; /*imgXmedium*/
+    width: 84.3em; /*imgXxlarge*/
 
 }
 
 .img {
-    height: 170px;
+    height: 10em; /*imgXmedium*/
     position: relative;
     left: 600px;
 }
 
 .titulo-imagen {
     font-family: garamond;
-    font-size: 50px;
+    font-size: 50px; /*CAMBIAR POR IMAGEN*/
     margin-left: 50px;
     position: relative;
     bottom: 120px;
     right: 0px;
 }
 .principal-audiolibros {
-    font-size: 1.4em;
+    font-size: 1.4em; /*textoPrincipal*/
     margin-bottom: 0.37em;
     font-family: garamond;
     margin-top: -50px;
 }
 
 .secundario-audiolibros {
-    font-size: 1.06em;
+    font-size: 1.1em; /*textoSecundario*/
     margin-bottom: 0.93em;
     margin-top: -20px;
 }
 
 .subtitulo-audiolibros {
     font-family: garamond;
-    font-size: 18px;
+    font-size: 1.1em; /*textoSecundario*/
     margin-top: 15px;
 }
 
 .apartado {
     margin: 5px;
-    font-size: 13px;
+    font-size: 0.9em; /*textoXs*/
     color: #347D56;
 }
 
 .imagenaudiolibro {
-    width: 160px;
+    width: 10em; /*imgXmedium*/ 
     margin-left: 30px;
 }
 
 .mejores-ab {
     font-family: garamond;
-    font-size: 27px;
+    font-size: 2em; /*textoLarge*/
 }
 
 .abpeque {
@@ -977,52 +966,52 @@ li {
 }
 
 .container-audie {
-    width: 440px;
+    width: 27.5em;
     margin-top: 50px;
     margin-left: 30px;
 }
 
 .imagenaudie {
-    width: 160px;
+    width: 10em; /*imgXmedium*/
     margin-left: 500px;
     margin-top: -120px;
 }
 
 .imagenaudie1 {
-    width: 160px;
+    width: 10em; /*imgXmedium*/
     margin-left: 100px;
     margin-top: -120px;
 
 }
 
 .container-infogral {
-    width: 1030px;
+    width: 64.3em;
     margin-left: 240px;
 
 }
 
 .podcast {
-    width: 300px;
-    height: 300px;
+    width: 18.75em; /*imgXlarge*/
+    height: 18.75em; /*imgXlarge*/
     margin-left: 20px;
 }
 
 .podcast1 {
-    width: 160px;
+    width: 10em; /*imgMedium*/
     margin-left: 50px;
     margin-top: 20px;
 }
 
 .imagenpodcast {
-    width: 160px;
+    width: 10em; /*imgMedium*/
     margin-left: 100px;
     margin-top: 20px;
 }
 
 .linkstemas {
     background-color: white;
-    width: 200px;
-    height: 710px;
+    width: 12.5em;
+    height: 45.5em;
     position: absolute;
     top: 500px;
 
@@ -1030,7 +1019,7 @@ li {
 .footer-audiolibros {
     text-align: center;
     font-family: Garamond;
-    font-size: small;
+    font-size: 0.81em; /*textoXxs*/
     margin-bottom: 0.03em;
     position: relative;
     top: 10px;
@@ -1039,15 +1028,9 @@ li {
 .footer-date {
     text-align: center;
     font-family: Garamond;
-    font-size: small;
+    font-size: 0.81em; /*textoXxs*/
     position: relative;
     top: 15px;}
-
-
-
-/*Tamaño computadora*/
-@media (min-width: 1025px) {}
-
 
 
 
@@ -1056,28 +1039,28 @@ li {
 /* Tamaño celulares ANDROID y apple grandes*/
 @media (max-width: 896px) {
     .font {
-        height: 170px;
-        width: 410px;
+        height: 10em; /*imgXmedium*/
+        width: 25em; /*mLarge*/
     }
     .img {
         display: none;
     }
     .principal-audiolibros {
-        font-size: 1.4em;
+        font-size: 1.4em; /*textoPrincipal*/
         margin-bottom: 0.37em;
         font-family: garamond;
         margin-top: -50px;
     }
     
     .secundario-audiolibros {
-        font-size: 1.1em;
+        font-size: 1.1em; /*textoSecundario*/
         margin-bottom: 0.93em;
         margin-top: 10px;
     }
     
 
     .container-infogral {
-        width: 480px;
+        width: 30em;
         margin-left: -80px;
         
     }
@@ -1087,41 +1070,41 @@ li {
     }
 
     .imagenaudiolibro {
-        width: 150px;
+        width: 10em; /*imgXmedium*/
         margin-left: 35px;
     }
 
     .mejores-ab {
         font-family: garamond;
-        font-size: 27px;
+        font-size: 1.8em; /*textoMedium*/
         margin-left: 50px;
 
     }
 
     .container-audie {
-        width: 362px;
+        width: 22.6em;
         margin-top: 10px;
         margin-left: 60px;
     }
 
     .imagenaudie {
-        width: 160px;
+        width: 10em; /*imgXmedium*/
         margin-left: 70px;
         margin-top: 20px;
     }
 
     .imagenaudie1 {
-        width: 159px;
+        width: 10em; /*imgXmedium*/
         margin-left: 240px;
         margin-top: -200px;
     }
     .podcast1 {
-        width: 140px;
+        width: 10em; /*imgXmedium*/
         margin-left: 90px;
         margin-top: 20px;
     }
     .imagenpodcast {
-        width: 140px;
+        width: 10em; /*imgXmedium*/
         margin-left: 30px;
         margin-top: 20px;
     }
@@ -1133,7 +1116,7 @@ li {
     .footer-audiolibros {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -10px;
@@ -1142,7 +1125,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -15px;
     }
@@ -1152,14 +1135,14 @@ li {
 /*Tamaño celulares APPLE pequeños*/
 @media (max-width: 330px) {
     .font {
-        height: 170px;
-        width: 319px;
+        height: 10em; /*imgXmedium*/
+        width: 21.25em; /*mMedium*/
     }
     .img {
         display: none;
     }
     .principal-audiolibros {
-        font-size: 1.4em;
+        font-size: 1.4em; /*textoPrincipal*/
         margin-bottom: 0.37em;
         font-family: garamond;
         margin-top: -50px;
@@ -1169,7 +1152,7 @@ li {
       display: none;
     }
     .container-infogral {
-        width: 395px;
+        width: 24.68em;
         margin-left: -80px;
     }
 
@@ -1178,40 +1161,40 @@ li {
     }
 
     .imagenaudiolibro {
-        width: 122px;
+        width: 7.5em; /*imgXxm*/
         margin-left: 40px;
     }
 
     .mejores-ab {
         font-family: garamond;
-        font-size: 27px;
+        font-size: 1.8em; /*textoMedium*/
         margin-left: 80px;
     }
 
     .container-audie {
-        width: 325px;
+        width: 20.3em;
         margin-top: 10px;
         margin-left: 60px;
     }
 
     .imagenaudie {
-        width: 130px;
+        width: 8em; /*mXxsmall*/
         margin-left: 70px;
         margin-top: 20px;
     }
 
     .imagenaudie1 {
-        width: 130px;
+        width: 8em; /*mXxsmall*/
         margin-left: 230px;
         margin-top: -170px;
     }
     .podcast1 {
-        width: 130px;
+        width: 8em; /*mXxsmall*/
         margin-left: 80px;
         margin-top: 20px;
     }
     .imagenpodcast {
-        width: 130px;
+        width: 8em; /*mXxsmall*/
         margin-left: 20px;
         margin-top: 20px;
     }
@@ -1223,7 +1206,7 @@ li {
     .footer-audiolibros {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -10px;
@@ -1232,7 +1215,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -15px;
     }
@@ -1242,19 +1225,19 @@ li {
 /* Tamaño tabletas */
 @media (min-width: 768px) and (max-width: 1024px) {
     .font {
-        height: 170px;
-        width: 769px;
+        height: 10em;
+        width: 48em;
     }
     .img {
         display: flex;
         left: 1px;
-        width: 768px;
+        width: 48em;
      }
     .titulo-imagen{
         display: none;
     }
     .principal-audiolibros {
-        font-size: 1.9em;
+        font-size: 2em; /*textoLarge*/
         margin-bottom: 0.37em;
         font-family: garamond;
         margin-top: 10px;
@@ -1264,7 +1247,7 @@ li {
       display: none;
     }
     .container-infogral {
-        width: 700px;
+        width: 43.75em;
         margin-left: 40px;
     }
     .titulo-audies {
@@ -1272,44 +1255,44 @@ li {
     }
 
     .imagenaudiolibro {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 50px;
     }
 
     .mejores-ab {
         font-family: garamond;
-        font-size: 35px;
+        font-size: 2.5em; /*textoXlarge*/
         margin-left: 80px;
     }
 
     .container-audie {
-        width: 600px;
+        width: 37.5em;
         margin-top: 10px;
         margin-left: 50px;
     }
     .frase-audie{
-        font-size: 20px;
+        font-size: 1.8em; /*textoMedium*/
     }
 
     .imagenaudie {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 70px;
         margin-top: 20px;
     }
 
     .imagenaudie1 {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 360px;
         margin-top: -240px;
     }
     
     .podcast1 {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 80px;
         margin-top: 20px;
     }
     .imagenpodcast {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 90px;
         margin-top: 20px;
     }
@@ -1320,7 +1303,7 @@ li {
     .footer-audiolibros {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -10px;
@@ -1329,7 +1312,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -15px;
     }
@@ -1347,18 +1330,18 @@ li {
 /* Celulares pequeños*/
 @media (min-width:360px)and (max-width:780px) and (orientation:landscape) {
     .font {
-        height: 170px;
-        width: 569px;
+        height: 10em;
+        width: 35.5em;
     }
     .img {
         display: flex;
         left: 1px;
-        width: 568px;     }
+        width: 35.5em;     }
     .titulo-imagen{
         display: none;
     }
     .principal-audiolibros {
-        font-size: 1.6em;
+        font-size: 1.8em; /*textoMedium*/
         margin-bottom: 0.37em;
         font-family: garamond;
         margin-top: 10px;
@@ -1367,51 +1350,51 @@ li {
       display: none;
     }
     .container-infogral {
-        width: 647px;
+        width: 40.4em;
     }
     .titulo-audies {
         margin-left: 80px;
     }
 
     .imagenaudiolibro {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 50px;
     }
 
     .mejores-ab {
         font-family: garamond;
-        font-size: 35px;
+        font-size: 2em; /*textoLarge*/
         margin-left: 80px;
     }
 
     .container-audie {
-        width: 600px;
+        width: 37.5em;
         margin-top: 10px;
         margin-left: 50px;
     }
     .frase-audie{
-        font-size: 20px;
+        font-size: 1.1em; /*textoSecundario*/
     }
 
     .imagenaudie {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 70px;
         margin-top: 20px;
     }
 
     .imagenaudie1 {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 360px;
         margin-top: -240px;
     }
     
     .podcast1 {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 80px;
         margin-top: 20px;
     }
     .imagenpodcast {
-        width: 200px;
+        width: 12.5em; /*imgLarge*/
         margin-left: 90px;
         margin-top: 20px;
     }
@@ -1422,7 +1405,7 @@ li {
     .footer-audiolibros {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -10px;
@@ -1431,7 +1414,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -15px;
     }
@@ -1441,18 +1424,18 @@ li {
 /*Tamaño tabletas*/
 @media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {
     .font {
-        height: 170px;
-        width: 1025px;
+        height: 10.5em;
+        width: 64em;
     }
     .img {
         display: flex;
         left: 120px;
-        width: 800px;     }
+        width: 50em;     }
     .titulo-imagen{
         display: none;
     }
     .principal-audiolibros {
-        font-size: 2.2em;
+        font-size: 2.5em; /*textoXlarge*/
         margin-bottom: 0.37em;
         font-family: garamond;
         margin-top: 10px;
@@ -1461,51 +1444,51 @@ li {
       display: none;
     }
     .container-infogral {
-        width: 980px;
+        width: 61.25em;
     }
     .titulo-audies {
         margin-left: 80px;
     }
 
     .imagenaudiolibro {
-        width: 280px;
+        width: 17.5em; /*mSmall*/
         margin-left: 50px;
     }
 
     .mejores-ab {
         font-family: garamond;
-        font-size: 35px;
+        font-size: 2.5em; /*textoXlarge*/
         margin-left: 80px;
     }
 
     .container-audie {
-        width: 900px;
+        width: 56.25em;
         margin-top: 10px;
         margin-left: 50px;
     }
     .frase-audie{
-        font-size: 26px;
+        font-size: 2em; /*textoLarge*/
     }
 
     .imagenaudie {
-        width: 280px;
+        width: 17.5em; /*mSmall*/
         margin-left: 140px;
         margin-top: 20px;
     }
 
     .imagenaudie1 {
-        width: 280px;
+        width: 17.5em; /*mSmall*/
         margin-left: 480px;
         margin-top: -320px;
     }
     
     .podcast1 {
-        width: 280px;
+        width: 17.5em; /*mSmall*/
         margin-left: 150px;
         margin-top: 20px;
     }
     .imagenpodcast {
-        width: 280px;
+        width: 17.5em; /*mSmall*/
         margin-left: 80px;
         margin-top: 20px;
     }
@@ -1516,7 +1499,7 @@ li {
     .footer-audiolibros {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         margin-bottom: 0.03em;
         position: relative;
         bottom: -10px;
@@ -1525,7 +1508,7 @@ li {
     .footer-date {
         text-align: center;
         font-family: Garamond;
-        font-size: small;
+        font-size: 0.81em; /*textoXxs*/
         position: relative;
         bottom: -15px;
     }
@@ -1537,7 +1520,7 @@ li {
 }
 .tituloAutores{
     font-family: garamond; 
-    font-size: xxx-large; 
+    font-size: xxx-large; /*PONER EN IMAGEN*/
     margin-left: 20px
 }
 .lista-horizontal {
@@ -1551,11 +1534,11 @@ li {
 .lista-horizontal li a {
     text-decoration:underline;
     color: white; 
-    font-size: 16px;
+    font-size: 1.1em; /*textoSecundario*/
     margin-left: 25px;
 }
 .subautor{
-    font-size: 29px;
+    font-size: 1.8em; /*textoMedium*/
     margin-bottom: -20px;
     font-family: garamond;
 }
@@ -1564,14 +1547,14 @@ li {
     margin-right: 550px;
 }
 .imgautor{
-    height: 270px; 
-    width: 280px;
+    height: 16.8em; 
+    width: 17.5em; /*mSmall*/
     margin-left: 60px;
     margin-top: 10px;
     border-radius: 50%;
 }
 .nombre-autor{
-    font-size: 30px; 
+    font-size: 1.8em; /*textoMedium*/
     font-family: garamond;
    
 }
@@ -1579,14 +1562,14 @@ li {
    text-align: justify; 
 }
 .container-autor{
-    width: 800px;
+    width: 50em;
     position: absolute;
     top: 340px;
     left: 400px;
 }
 .subtitulo-autor{
     font-family: garamond;
-    font-size: 30px;
+    font-size: 1.8em; /*textoMedium*/
     margin-left: 30px;
 }
 .portada-libroautores{
@@ -1597,7 +1580,7 @@ li {
     top: 600px;
 }
 .container-libroautor{
-    width: 800px;
+    width: 50em;
     margin-left: 100px;
     margin-top: 20px;
 }
@@ -1608,8 +1591,8 @@ li {
 .primerLink {
     background-color: lightgray;
     border: solid black 1px;
-    width: 100px;
-    height: 20px;
+    width: 6.25em; /*formSmall*/
+    height: 1.25em;
     position: relative;
     margin-left: 20px;
     margin-top: 20px;
@@ -1618,8 +1601,8 @@ li {
 .segundoLink {
     background-color: lightgray;
     border: solid black 1px;
-    width: 100px;
-    height: 20px;
+    width: 6.25em; /*formSmall*/
+    height: 1.25em;
     position: relative;
     margin-left: 20px;
     margin-top: 20px;
@@ -1631,8 +1614,8 @@ li {
 }
 .portada-libro{
     border-top-left-radius: 10%; border-top-right-radius: 10%;border-bottom-left-radius: 10%;border-bottom-right-radius: 10%; 
-    width: 170px; 
-    height: 180px; 
+    width: 12.5em; /*imgLarge*/
+    height: 12em;  /*imgMedium*/
     margin-top: 50px;
 }
 .videos-autor{
@@ -1646,8 +1629,8 @@ li {
 }
 
 .iconSN {
-    width: 30px;
-    height: 30px;
+    width: 3em; /*imgXxsmall*/
+    height: 3em; /*imgXxsmall*/
     margin-left: 50px;
     margin-top: 15px;
     display: inline;
@@ -1661,12 +1644,12 @@ li {
 }
 .titulo-podcast{
     font-family: garamond; 
-    font-size: xxx-large; 
+    font-size: xxx-large;  /*PONER EN IMAGEN*/
     margin-left: 20px
 }
 .subtitulo-podcast{
     font-family: garamond;
-    font-size: 30px;
+    font-size: 1.8em; /*textoMedium*/
     margin-left: 30px;
 }
 
