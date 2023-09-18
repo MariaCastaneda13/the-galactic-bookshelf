@@ -3,6 +3,10 @@
 .container-podcast{
     background-color: $colorblue;
     margin-bottom: 10px;
+    height: 120px;   
+}
+.podcast{
+    margin-left: 26px;
 }
 .titulo-podcast{
     font-family: $textoGeneral; 
@@ -15,3 +19,100 @@
     margin-left: 30px;
 }
 
+
+/************************VERTICAL******************************/
+/* Tamaño celulares ANDROID y apple grandes*/
+@media (max-width: 896px) {
+    .container-podcast{
+        background-color: $colorblue;
+        margin-bottom: 10px;
+        height: 120px;   
+    }
+    .podcast{
+        margin-left: 10px;
+        width: 95%;
+        height: 250px;
+        margin-bottom: 5px;
+    }
+    .titulo-podcast{
+        font-family: $textoGeneral; 
+        font-size: $textoXxlarge;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .subtitulo-podcast{
+        font-family: $textoGeneral;
+        font-size: $textoMedium;
+        margin-left: 30px;
+    }
+
+}
+
+/*Tamaño celulares APPLE pequeños*/
+@media (max-width: 330px) {
+    .container-podcast{
+        background-color: $colorblue;
+        margin-bottom: 10px;
+        height: 60px;   
+    }
+    .quote{
+        display: none;
+    }
+    .podcast{
+        margin-left: 10px;
+        width: 95%;
+        height: 250px;
+        margin-bottom: 5px;
+    }
+    .titulo-podcast{
+        font-family: $textoGeneral; 
+        font-size: $textoXxlarge;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .subtitulo-podcast{
+        font-family: $textoGeneral;
+        font-size: $textoPrincipal;
+        margin-left: 30px;
+    }
+
+}
+
+/* Tamaño tabletas */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-podcast{
+        background-color: $colorblue;
+        margin-bottom: 10px;
+        height: 120px;   
+    }
+    .quote{
+        font-size: 20px;
+    }
+    .podcast{
+        margin-left: 10px;
+        width: 90%;
+        height: 250px;
+        margin-bottom: 5px;
+    }
+    .titulo-podcast{
+        font-family: $textoGeneral; 
+        font-size: $textoXxlarge;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .subtitulo-podcast{
+        font-family: $textoGeneral;
+        font-size: $textoMedium;
+        margin-left: 30px;
+    }
+
+}
+
+/********************HORIZONTAL*******************************/
+/*Tamaño celulares*/
+@media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {
+}
+
+/*Tamaño tabletas*/
+@media (min-width: 916px) and (max-width: 1280px) and (orientation: landscape) {
+}
