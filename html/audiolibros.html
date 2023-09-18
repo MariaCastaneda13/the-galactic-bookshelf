@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- CSS PROPIO -->
-    <link rel="stylesheet" href="../css/diseño.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Imagen en la pestaña -->
     <link rel="shortcut icon" href="../imagenes/biblioteca.png">
 </head>
@@ -72,10 +72,66 @@
         </nav>
       </section>
     <!---------------------------- FIN NAVBAR BS ------------------------>
-    <section class="font">
-        <img class="img" src="../imagenes/best of 2022 audio cover.png" alt="">
+    <!--------------------------- INICIO CARRUSEL ----------------------->
+    <section id="carrusel">
+      <div class="carousel-computadora">
+        <!-- Carrusel para computadora -->
+        <div id="carouselComputadora" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/Sherlock Holmes audiolibros.png" class="d-block w-100"
+                alt="Joven escuchando el audiolibro de Sherlock Holmes">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/Advantages of audiobooks.png" class="d-block w-100"
+                alt="10 beneficios de escuchar audiolibros">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/Ventajas de audiolibros.png" class="d-block w-100"
+                alt="Ventajas de los Audiolibros">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselComputadora" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselComputadora" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="carousel-movil">
+        <!-- Carrusel dispositivos móviles -->
+        <div id="carouselMovil" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/Audiolibros ventajas movil.png" class="d-block w-100"
+                alt="Ventajas de escuchar audiolibros">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/Sherlock Holmes audiobook movil.png" class="d-block w-100"
+                alt="Audiolibro de Sherlock Holmes">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/10 benefits of listening to audiobooks movil.png" class="d-block w-100"
+                alt="10 benefits of listening to audiobooks">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselMovil" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselMovil" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
+        </div>
+      </div>
     </section>
-    <h1 class="fw-bold text-light titulo-imagen text-start">Audiolibros</h1>
+    <!------------------------- FIN DEL CARRUSEL --------------------->
+   
 
     <!-------------------------------- INICIO TITULO -------------------->
 
@@ -83,7 +139,7 @@
     <!-- INICIO FRASE CENTRAL-->
     <section id="centralquote" class=" container-fluid media-quote my-3">
         <div class="row">
-            <h2 class="text-center principal-audiolibros mb-1">Un lugar para que puedas viajar entre universos</h2>
+            <h2 class="text-center principal-audiolibros mb-2">Un lugar para que puedas viajar entre universos</h2>
             <p class="text-center secundario-audiolibros mb-1">
                 "Un lector vive mil vidas antes de morir. El que nunca lee solo vive una". George R.R. Martin. </p>
         </div>
