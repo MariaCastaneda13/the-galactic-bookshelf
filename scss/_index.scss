@@ -1,0 +1,812 @@
+.media-quote {
+    font-family: $textoGeneral;
+}
+.principal {
+    font-size: $textoPrincipal;
+    margin-bottom: 0.37em;
+    font-family: $textoGeneral;
+}
+
+.secundario {
+    font-size: $textoSecundario;
+    margin-bottom: 0.93em;
+}
+.subtitulo {
+    font-family: $textoGeneral;
+}
+
+.lecturasImp {
+    background-color: $mainColor;
+    line-height: 2.5em;
+
+}
+/*****************************COMPUTADORA***************************/
+/*Tamaño computadora*/
+@media (min-width: 1025px) {
+   
+    
+    .lineaDivisora {
+        border-top: 0.06em solid $keyColor;
+        margin-top: 0.06em;
+        margin-top: 0.06em;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
+    
+   
+    
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgLarge;
+        height: $imgLarge;
+        margin-top: 0.06em;
+        margin-bottom: 1.25em;
+        display: inline;
+        line-height: 2.5em;
+    }
+    
+    .contsubs {
+        display: flex;
+        align-items: center;
+    }
+    
+    .subrecomendacion {
+        font-family: $textoGeneral;
+        font-size: $textoPrincipal;
+        margin-left: 0.93em;
+    }
+    
+    .correo {
+        font-family: $textoGeneral;
+    }
+    
+    
+    .carousel-computadora {
+        display: block;
+    }
+
+    .carousel-movil {
+        display: none;
+    }
+    .minicon {
+        width: $imgXlarge;
+    }
+
+    .icono {
+        width: $imgSmall;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $keyColor;
+        font-size: $textoSecundario;
+    }
+
+    .musica {
+        margin-left: 50px;
+        margin-top: 1em;
+        border-radius: $borderMain;
+        width: 70%;
+        height: 352;
+    }
+
+    .playlist-movil {
+        display: block;
+    }
+
+    .formularioDudas {
+        background-color: $baseColor;
+        border: solid $keyColor 1px;
+        border-radius: $borderMain;
+        width: 70%;
+        height: 300px;
+        margin-left: 3.125em;
+
+    }
+
+    .espacioFormulario {
+        width: 70%;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+
+    }
+
+    .espacioFormulario1 {
+        width: 70%;
+        height: 70px;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        height: 50px;
+        background-color: rgb(180, 209, 180);
+       
+    }
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+    }
+}
+
+/****************************VERTICAL******************************/
+/* Tamaño celulares ANDROID y apple grandes*/
+@media (max-width: 896px) {
+    .principal {
+        font-size: $textoPrincipal;
+    }
+
+    .secundario {
+        display: none;
+    }
+
+    .carousel-computadora {
+        display: none;
+    }
+
+    .carousel-movil {
+        display: block;
+    }
+
+    .minicon {
+        width: $imgSmall;
+    }
+
+    .icono {
+        width: $imgXxsmall;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $keyColor;
+        font-size: $textoXxs;
+    }
+
+    .subtitulo {
+        font-size: $textoPrincipal; 
+    }
+
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgXsmall;
+        height: $imgSmall;
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+    }
+
+    .contsubs {
+        display: grid;
+        align-items: center;
+    }
+
+    .subrecomendacion {
+        font-family: $textoGeneral;
+        font-size: $textoSecundario;
+
+    }
+
+    .correo {
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 10px;
+    }
+
+    .musica {
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: $borderMain;
+        width: $mMedium;
+    }
+    .formularioDudas {
+        background-color: $baseColor;
+        border: solid $keyColor 1px;
+        width: $formXmedium;
+        height: $mLarge;
+        position: static;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: $borderMain;
+
+    }
+
+    .espacioFormulario {
+        width: 300px;
+        border: $mainColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 300px;
+        height: 100px;
+        border: $mainColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+        margin-left: 70px;
+        margin-top: 10px;
+        
+    }
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+       
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+    
+    }
+}
+
+
+/*Tamaño celulares APPLE pequeños*/
+@media (max-width: 330px) {
+    .principal {
+        font-size: $textoPrincipal;
+    }
+
+    .secundario {
+        display: none;
+    }
+
+    .carousel-computadora {
+        display: none;
+    }
+
+    .carousel-movil {
+        display: block;
+    }
+
+    .minicon {
+        width: $imgSmall;
+    }
+
+    .icono {
+        width: $imgXxsmall;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $mainColor;
+        font-size: $textoXxs;
+    }
+
+    .subtitulo {
+        font-size: $textoPrincipal;
+    }
+
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgXsmall; 
+        height: $imgXsmall; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+    }
+
+    .contsubs {
+        display: grid;
+        align-items: center;
+    }
+
+    .subrecomendacion {
+        font-family: $textoGeneral;
+        font-size: $textoSecundario;
+    }
+    .correo {
+        font-family: $textoGeneral;
+        font-size: textoXxs;
+        margin-bottom: 10px;
+    }
+
+    .musica {
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: $borderMain;
+        width: $mSmall;
+    }
+   
+    .formularioDudas {
+        background-color: $baseColor;
+        border-radius: $borderMain;
+        border: solid $mainColor 1px;
+        width: $mSmall;
+        height: $mLarge; 
+        position: static;
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+
+    .espacioFormulario {
+        width: 255px; 
+        border: $mainColor 1px solid;
+        margin-left: 15px;
+    }
+    .espacioFormulario1 {
+        width: 255px; 
+        height: 70px; 
+        border: $mainColor 1px solid;
+        margin-left: 15px;
+    }
+    .sub-formulario{
+        font-size: 22px;
+    }
+    .boton {
+       margin-top: 8px;
+       margin-left: 47px;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs; 
+    }
+}
+
+/* Tamaño tabletas */
+@media (min-width: 768px) and (max-width: 1280px) {
+    .principal {
+        font-size: 2em; /*textoLarge*/
+    }
+
+    .secundario {
+        display: none;
+    }
+
+    .carousel-computadora {
+        display: none;
+    }
+
+    .carousel-movil {
+        display: block;
+    }
+
+    .minicon {
+        width: $imgMedium; 
+    }
+    .icono {
+        width: $imgSmall;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $keyColor;
+        font-size: $textoPrincipal;
+    }
+
+    .subtitulo {
+        font-size: $textoXlarge;
+    }
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgXmedium; 
+        height: $imgXmedium; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+    }
+
+    .contsubs {
+        display: grid;
+        align-items: center;
+    }
+
+    .subrecomendacion {
+        font-family: $textoGeneral;
+        font-size: $textoLarge;
+    }
+    .correo {
+        font-family: $textoGeneral;
+        font-size: $textoPrincipal;
+        margin-bottom: 10px;
+    }
+
+    .musica {
+        margin-left: 30px;
+        margin-top: 10px;
+        border-radius: $borderMain;
+        width: 90%; 
+    }
+
+    .formularioDudas {
+        background-color: $baseColor;
+        border: solid $keyColor 1px;
+        width: 90%;
+        height: 380px; 
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .espacioFormulario {
+        width: 95%;
+        height: 35px;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 95%; 
+        height: 75px; 
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+       margin-left: 230px;
+       margin-top: 15px;
+    }
+.sub-formulario{
+    font-size: 25px;
+}
+    .subtituloFormulario1 {
+        font-size: $textoPrincipal;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+    
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs; 
+    
+    }
+}
+
+
+/**************************HORIZONTAL*******************************/
+/*Tamaño celulares*/
+@media (min-width:414px)and (max-width: 915px) and (orientation:landscape) {
+    .principal {
+        font-size: $textoLarge;
+    }
+
+    .secundario {
+        display: block;
+        font-size: $textoPrincipal;
+    }
+
+    .carousel-computadora {
+        display: block;
+    }
+
+    .carousel-movil {
+        display: none;
+    }
+
+    .minicon {
+        width: $imgMedium; 
+    }
+
+    .icono {
+        width: $imgSmall;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $keyColor;
+        font-size: $textoPrincipal;
+    }
+
+    .subtitulo {
+        font-size: $textoXlarge;
+    }
+
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgXmedium; 
+        height: $imgXmedium;
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+    }
+
+    .musica {
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 90%;
+    }
+
+    .formularioDudas {
+        background-color: $baseColor;
+        border: solid $keyColor 1px;
+        width: 90%;
+        height: 370px; 
+       
+    }
+    .sub-formulario{
+        font-size: 20px;
+    }
+
+    .espacioFormulario {
+        width: 95%; 
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 95%;
+        height: 90px; 
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+       margin-top: 20px;
+       margin-left: 270px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: $textoSecundario;
+    }
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+    }
+}
+
+/* Celulares pequeños*/
+@media (min-width:360px)and (max-width:780px) and (orientation:landscape) {
+    .minicon {
+        width: $mXxsmall;
+    }
+
+    .icono {
+        width: $imgSmall;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $keyColor;
+        font-size: $textoPrincipal;
+    }
+
+    .subtitulo {
+        font-size: $textoLarge;
+    }
+
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgXxm; 
+        height: $imgXxm;
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+    }
+
+    .musica {
+        margin-left: 30px;
+        margin-top: 10px;
+        border-radius: $borderMain;
+        width: 90%;
+    }
+
+    .formularioDudas {
+        background-color: $baseColor;
+        border: solid $keyColor 1px;
+        width: 90%; 
+        height: 25em;
+        position: static;
+        margin-left: 30px;
+
+    }
+
+    .espacioFormulario {
+        width: 90%;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+    .sub-formulario{
+        font-size: 20px;
+    }
+    .espacioFormulario1 {
+        width: 90%;
+        height: 120px;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .boton {
+       margin-left: 160px;
+       margin-top: 15px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: $textoSecundario; 
+    }
+
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs; 
+    }
+}
+
+/*Tamaño tabletas*/
+@media (min-width: 916px) and (max-width: 1279px) and (orientation: landscape) {
+    .principal {
+        font-size: $textoXlarge;
+    }
+
+    .secundario {
+        display: block;
+        font-size: $textoLarge; 
+        margin-top: 0.62em;
+    }
+
+    .minicon {
+        width: $mXsmall;
+    }
+
+    .icono {
+        width: $imgXxm;
+        display: inline;
+    }
+
+    .text-icono {
+        text-align: center;
+        display: inline;
+        font-family: $textoGeneral;
+        color: $keyColor;
+        font-size: $textoLarge;
+    }
+
+    .subtitulo {
+        font-size: $textoXlarge; 
+    }
+
+    .libro {
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: $imgMedium;
+        height: $imgMedium; 
+        margin-top: 1px;
+        margin-bottom: 20px;
+        display: inline;
+        line-height: 40px;
+    }
+
+    .musica {
+        margin-left: 30px;
+        margin-top: 10px;
+        border-radius: $borderMain;
+        width: 90%;
+    }
+
+    .formularioDudas {
+        background-color: $baseColor;
+        border: solid $keyColor 1px;
+        width: 90%;
+        height: 400px;
+        border-radius: $borderMain;
+        margin-left: 30px;
+
+    }
+
+    .espacioFormulario {
+        width: 95%;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+
+    .espacioFormulario1 {
+        width: 95%; 
+        height: 100px;
+        border: $keyColor 1px solid;
+        margin-left: 20px;
+    }
+    .sub-formulario{
+        font-size: 25px;
+    }
+    .boton {
+       margin-left: 350px;
+       margin-top: 10px;
+    }
+
+    .subtituloFormulario1 {
+        font-size: $textoPrincipal; 
+    }
+
+    .footer {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;
+        margin-bottom: 0.03em;
+    }
+
+    .footer-date {
+        text-align: center;
+        font-family: $textoGeneral;
+        font-size: $textoXxs;         
+    }
+}
+

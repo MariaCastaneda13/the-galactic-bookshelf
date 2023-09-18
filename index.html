@@ -13,7 +13,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <!-- CSS PROPIO -->
-  <link rel="stylesheet" href="./css/diseño.css">
+  <link rel="stylesheet" href="./css/main.css">
   <!-- Imagen en la pestaña -->
   <link rel="shortcut icon" href="./imagenes/biblioteca.png">
 </head>
@@ -34,8 +34,7 @@
           <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active fst-italic" aria-current="page"
-                  href="./html/audiolibros.html">Audiolibros</a>
+                <a class="nav-link active fst-italic" aria-current="page" href="./html/audiolibros.html">Audiolibros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active fst-italic" aria-current="page" href="./html/autores.html">Autores</a>
@@ -73,7 +72,7 @@
           </div>
         </div>
       </nav>
-      
+
     </section>
     <!---------------------------- FIN NAVBAR BS ------------------------>
 
@@ -144,7 +143,7 @@
 
     <!---------------------- FIN FRASE CENTRAL -------------------------->
     <!----------------------- INICIO RECOMENDACIONES------------------------>
-    <h2 class="subtitulo fw-bold ms-4">Recomendaciones de GB</h2>
+    <h2 class="subtitulo fw-bold ms-2">Recomendaciones de GB</h2>
     <section class="mb-0">
       <div class="row mx-auto justify-content-center mt-4">
 
@@ -223,7 +222,7 @@
     <!------------------------------ INICIO SUSCRIPCION ------------------------->
     <section class="suscripcion">
       <div class="container-fluid contsubs">
-        <p class="subrecomendacion fw-bold mt-3 ms-5">No te pierdas nuestras recomendaciones de libros y mucho más.</p>
+        <p class="subrecomendacion fw-bold mt-3 ms-2">No te pierdas nuestras recomendaciones de libros y mucho más.</p>
 
         <form action="procesar_formulario.php" method="post">
           <label class="correo fs-5 ms-5" for="correo">Correo:</label>
@@ -237,47 +236,49 @@
 
     <!-------------------------------- INICIO PLAYLIST ------------------------>
     <section class="playlist">
-      <h2 class="subtitulo fw-bold ms-5"> Para un buen libro, buena música</h2>
-      <iframe class="musica"
-        src="https://open.spotify.com/embed/playlist/6XE63IKGlRfipQTZ8syzzs?utm_source=generator&theme=0" width="100%"
-        height="400px" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <h2 class="subtitulo fw-bold ms-4"> Mood para disfrutar de una buena lectura</h2>
 
+      <iframe class="musica" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6XE63IKGlRfipQTZ8syzzs?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  </section>
 
+  <!--FORMULARIO PARA COMPUTADORA -->
 
-      <nav class="formularioDudas">
-        <h2 class="subtitulo subtituloFormulario fw-bold text-center mt-1">¡Escríbenos!</h2>
-        <label class="subtitulo subtituloFormulario1 ms-4" for="Nombre ">Nombre:</label>
-        <input class="espacioFormulario" type="text " id="Nombre ">
-        <br><br>
-        <label class="subtitulo subtituloFormulario1 ms-4" for=Correo>Correo:</label>
-        <input class="espacioFormulario" type="email " id="Correo ">
-        <br><br>
-        <label class="subtitulo subtituloFormulario1 ms-4" for=text>Escribe tu mensaje aquí:</label>
-        <input class=" espacioFormulario1" type="text " name="text " id="mensaje ">
-        <br><br>
-        <input class="boton" type="submit" value="Enviar">
-      </nav>
-      <hr class="lineaDivisoraFinal" style="margin-top  : -300px;margin-left: 0px; margin-right: 0px;">
-    </section>
+  <section>
+    <h2 class="subtitulo fw-bold ms-4 mt-4"> Escríbenos tus comentarios</h2>
+    <nav class="formularioDudas">
+      <label class="subtitulo subtituloFormulario1 ms-4 mt-3" for="Nombre "> Nombre:</label>
+      <br>
+      <input class="espacioFormulario subtitulo sub-formulario" type="text " id="Nombre" required placeholder= "Ingresa tu nombre">
+      <br><br>
+      <label class="subtitulo subtituloFormulario1 ms-4" for=Correo>Email:</label>
+      <br>
+      <input class="espacioFormulario subtitulo sub-formulario" type="email " id="Correo" required placeholder= "Ingresa tu correo electrónico">
+      <br><br>
+      <label class="subtitulo subtituloFormulario1 ms-4" for=text>Mensaje que nos quieras dejar:</label>
+      <br>
+      <input class="espacioFormulario1 subtitulo sub-formulario" type="text " name="text " id="mensaje" required placeholder= "¡Cuéntanos algo! Dános tu opinión, sugerencia, queja y/o felicitación :)">
 
+      <input class="boton subtitulo sub-formulario" type="submit" value="Envíanos el mensaje">
+    </nav>
 
-    <!-------------------------------- FIN PLAYLIST ------------------------>
+  </section>
+  <hr class="lineaDivisoraFinal">
+  <!-------------------------------- FIN PLAYLIST ------------------------>
+  <!------------------------------- INICIO FOOTER -------------------->
 
+  <footer>
+    <p class="footer font-monospace">THE GALACTIC BOOKSHELF</p>
+    <p class="footer-date">2023</p>
+  </footer>
 
-    <!------------------------------- INICIO FOOTER -------------------->
-    <footer>
-      <p class="footer font-monospace">THE GALACTIC BOOKSHELF</p>
-      <p class="footer-date">2023</p>
-    </footer>
-
-    <!--BOOTSTRAP  -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"></script>
+  <!--BOOTSTRAP  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
   </div>
 </body>
 

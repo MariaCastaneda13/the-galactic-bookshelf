@@ -1,12 +1,16 @@
 //Variables
 
+//Bordes
+$borderMain:0.75em;
+
 //Esquema de color
 $mainColor: rgb(34,65, 42);
 $secondaryColor: rgb(44,31,54);
 $keyColor: rgb(11,11,11);
-$colorBarra: rgb(238,233,233);
+$baseColor:rgb(211, 211, 211);
+$colorWhite: rgb(255, 255, 255);
 
-//Tipografías
+//Tipografías 
 $textoGeneral: Garamond;
 $textoBarra: System-ui;
 
@@ -20,7 +24,7 @@ $textoMedium:1.8em;
 $textoLarge: 2em;
 $textoXlarge: 2.5em;
 
-//Tamaños imágenes y otros
+//Tamaños imágenes
 $imgXxsmall:3em;
 $imgXsmall:4em;
 $imgSmall:5em;

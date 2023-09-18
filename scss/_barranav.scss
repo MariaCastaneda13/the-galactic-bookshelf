@@ -1,4 +1,11 @@
 //nesting
 .barraNavegadora{
-    background-color: $colorBarra;
+    background-color: $colorWhite;
+    .logo{  
+        width: $imgXlarge;
+        height: $imgSmall;
+    }
+    .nav-link{
+        margin-left: 2.5em
+    }
 }
