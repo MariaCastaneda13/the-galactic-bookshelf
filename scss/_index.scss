@@ -15,7 +15,12 @@
 .subtitulo {
     font-family: $textoGeneral;
 }
-
+.linear-gradient{
+    background-image: linear-gradient(to left, $mainColor,$keyColor);
+}
+.linear-gradient1{
+    background-image: linear-gradient(to left, grey,$colorWhite);
+}
 .lecturasImp {
     background-color: $mainColor;
     line-height: 2.5em;

@@ -42,6 +42,14 @@ li {
   font-family: Garamond;
 }
 
+.linear-gradient {
+  background-image: linear-gradient(to left, rgb(34, 65, 42), rgb(11, 11, 11));
+}
+
+.linear-gradient1 {
+  background-image: linear-gradient(to left, grey, rgb(255, 255, 255));
+}
+
 .lecturasImp {
   background-color: rgb(34, 65, 42);
   line-height: 2.5em;
@@ -2124,6 +2132,10 @@ li {
 
 .podcast {
   margin-left: 26px;
+}
+
+.linear-gradient2 {
+  background-image: linear-gradient(to right, rgb(34, 41, 65), rgb(34, 65, 42));
 }
 
 .titulo-podcast {

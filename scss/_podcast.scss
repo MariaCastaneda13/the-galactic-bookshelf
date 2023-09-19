@@ -8,6 +8,10 @@
 .podcast{
     margin-left: 26px;
 }
+.linear-gradient2{
+    background-image: linear-gradient(to right, $colorblue,$mainColor);
+
+}
 .titulo-podcast{
     font-family: $textoGeneral; 
     font-size: $textoXxlarge;
