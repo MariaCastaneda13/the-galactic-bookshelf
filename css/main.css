@@ -1790,15 +1790,16 @@ li {
 
 .imagenebooks {
   width: 10em;
-  margin-left: 120px;
   margin-top: 20px;
+  align-items: center;
 }
 
 .imagenebooks1 {
   width: 10em;
-  margin-left: 30px;
   margin-top: 20px;
+  align-items: center;
 }
+
 
 .linkstemas {
   background-color: rgb(255, 255, 255);
@@ -2026,7 +2027,6 @@ li {
   }
   .imagenebooks {
     width: 12.5em;
-    margin-left: 100px;
     margin-top: 20px;
   }
   .imagenebooks1 {
